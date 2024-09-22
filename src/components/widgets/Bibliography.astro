@@ -1,0 +1,55 @@
+---
+import fs from 'fs/promises';
+import bibtexParse from 'bibtex-parse-js';
+
+export interface Props {
+  bibFile: string;
+}
+
+const { bibFile } = Astro.props;
+
+// Leer el archivo .bib
+const bibContent = await fs.readFile(bibFile, 'utf-8');
+
+// Parsear el contenido del archivo .bib
+const entries = bibtexParse.toJSON(bibContent);
+
+// Ordenar las entradas por año (de más reciente a más antiguo)
+const sortedEntries = entries.sort((a, b) => {
+  const yearA = parseInt(a.entryTags.year) || 0;
+  const yearB = parseInt(b.entryTags.year) || 0;
+  return yearB - yearA;
+});
+
+// Agrupar las entradas por año
+const entriesByYear = sortedEntries.reduce((acc, entry) => {
+  const year = entry.entryTags.year || 'Sin fecha';
+  if (!acc[year]) {
+    acc[year] = [];
+  }
+  acc[year].push(entry);
+  return acc;
+}, {});
+
+// Obtener los años ordenados
+const years = Object.keys(entriesByYear).sort((a, b) => b.localeCompare(a));
+---
+
+<div class="bibliography">
+  {years.map((year) => (
+    <section class="year-section">
+      <h2>{year}</h2>
+      {entriesByYear[year].map((entry) => (
+        <div class="entry">
+          <h3>{entry.entryTags.title}</h3>
+          <p>Autores: {entry.entryTags.author}</p>
+          {entry.entryTags.journal && <p>Revista: {entry.entryTags.journal}</p>}
+          {entry.entryTags.booktitle && <p>Libro: {entry.entryTags.booktitle}</p>}
+          {entry.entryTags.publisher && <p>Editorial: {entry.entryTags.publisher}</p>}
+          {entry.entryTags.pages && <p>Páginas: {entry.entryTags.pages}</p>}
+          {entry.entryTags.doi && <p>DOI: <a href={`https://doi.org/${entry.entryTags.doi}`} target="_blank" rel="noopener noreferrer">{entry.entryTags.doi}</a></p>}
+        </div>
+      ))}
+    </section>
+  ))}
+</div>

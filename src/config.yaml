@@ -1,5 +1,5 @@
 site:
-  name: AcousPhem
+  name: ACOUSPHEM
   site: 'https://acousphem.github.io'
   base: '/'
   trailingSlash: false

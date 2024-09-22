@@ -1,7 +1,7 @@
 ---
 import { APP_BLOG } from 'astrowind:config';
 
-import Grid from '~/components/blog/Flex.astro';
+import Grid from '~/components/blog/Grid.astro';
 
 import { getBlogPermalink } from '~/utils/permalinks';
 import { findPostsByIds } from '~/utils/blog';
@@ -57,6 +57,17 @@ const posts = APP_BLOG.isEnabled ? await findPostsByIds(postIds) : [];
       </div>
 
       <Grid posts={posts} />
+
+      <!-- 
+      {APP_BLOG.list.isEnabled && linkText && linkUrl && (
+              <a
+                class="text-lg dark:text-slate-400 hover:text-primary transition ease-in duration-200 block mt-6 lg:mb-0"
+                href={linkUrl}
+              >
+                {linkText} »
+              </a>
+            )} -->
+      
     </WidgetWrapper>
   ) : (
     <Fragment />

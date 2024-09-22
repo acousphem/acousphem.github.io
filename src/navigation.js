@@ -11,8 +11,8 @@ export const headerData = {
       href: getPermalink('/publications'),
     },
     {
-      text: 'Collaborators',
-      href: getPermalink('/collaborators'),
+      text: 'Members',
+      href: getPermalink('/members'),
     },
     {
       text: 'Blog',
@@ -31,10 +31,6 @@ export const headerData = {
         },
       ],
     },
-    {
-      text: 'AboutUs',
-      href: '#',
-    },
   ],
   // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
@@ -42,12 +38,12 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Lab',
       links: [
-        { text: 'Home', href: '#' },
-        { text: 'Research', href: '#' },
-        { text: 'Publications', href: '#' },
-        { text: 'Collaborators', href: '#' },
+        { text: 'Home', href: '' },
+        { text: 'Research', href: '/research' },
+        { text: 'Publications', href: '/publications' },
+        { text: 'Members', href: '/members' },
       ],
     },
     {
@@ -60,20 +56,20 @@ export const footerData = {
       ],
     },
     {
-      title: 'Company',
+      title: 'Lab',
       links: [
-        { text: 'About', href: '#' },
+        { text: 'About Us', href: '#' },
         { text: 'Contact', href: '#' },
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    //{ text: 'Terms', href: getPermalink('/terms') },
+    //{ text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/acousphem' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/acousphem' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/acousphem' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/profile.php?id=61563897180246' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
    // { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },

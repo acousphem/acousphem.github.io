@@ -49,9 +49,9 @@ for microstructure-based modelling of sound absorbing rigid-frame porous media,"
 - R. Venegas, J. P. Arenas, C. Boutin, "Analytical modeling of dissipative silencers," Journal of the
 Acoustical Society of America, 144 (5), 2998-3009 (2018).
 - R. Venegas, C. Boutin, "Enhancing sound attenuation in permeable heterogeneous materials via
-diffusion processes," Acta Acustica United with Acustica, 104, 623{635 (2018).
+diffusion processes," Acta Acustica United with Acustica, 104, 623{635 (2018)}.
 - R. Venegas, C. Boutin, "Acoustics of permeable heterogeneous materials with local non-equilibrium
-pressure states," Journal of Sound and Vibration, 418, 221{239 (2018).
+pressure states," Journal of Sound and Vibration, 418, 221{239 (2018)}.
 
 ### 2017
 

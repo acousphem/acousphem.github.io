@@ -90,3 +90,12 @@
 .dd *:first-child {
   margin-top: 0;
 }
+
+@font-face {
+  font-family: mathcal;
+  src: url(jsMath-cmbsy10-l.ttf);
+}
+
+.font-matchal {
+  font-family: mathcal;
+}

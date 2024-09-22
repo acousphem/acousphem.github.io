@@ -1,0 +1,162 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Collaborations from '~/components/widgets/Collaborations.astro';
+import MapComponent from '~/components/widgets/MapComponent.jsx';
+import Map from '~/components/widgets/Map.astro';
+
+const metadata = {
+  title: 'Members',
+};
+
+const markers = [
+  { coordinates: [-74.006, 40.7128], title: 'New York' }
+];
+
+const collaborationsData = {
+  title: "Our Collaborations",
+  subtitle: "We work with the best",
+  tagline: "Collaborations",
+  division: [
+    {
+      title: "UK",
+      list: [
+        { member: "Dr. Olga Umnova - University of Salford" },
+        { member: "Prof. Kirill Horoshenkov - University of Sheffield" },
+      ]
+    },
+    {
+      title: "France",
+      list: [
+        { member: "Dr. Claude Boutin - ENTPE & Université de Lyon" },
+        { member: "Dr. Benoit Coasne - Laboratoire Interdisciplinaire de Physique CNRS & Universté Grenoble Alpes" },
+        { member: "Dr. François-Xavier Bécot - Matelys Research Lab" },
+        { member: "Dr. Fabien Chevillotte - Matelys Research Lab"},
+        { member: "Dr. Camille Perrot - Université Gustave Eiffel"}
+      ]
+    }
+  ],
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Testimonials Widget  Current Members*********** -->
+
+  <Testimonials
+    title="Current Members",
+    subtitle="Discover our members.",
+    tagline = "Members",
+    testimonials={[
+      {
+        testimonial: ``,
+        name: 'Rodolfo Venegas',
+        job: '最高 领导人',
+        image: {
+          src: '../src/assets/images/members/rvc-photo.jpg',
+          alt: 'RVC',
+          loading: 'eager',
+        },
+      },
+      {
+        testimonial: ``,
+        name: 'Claudio Caamaño',
+        job: 'MSc. Thesis Acoustics and Vibrations',
+        image: {
+          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+          alt: 'CAP',
+          loading: 'eager',
+        },
+      },
+      {
+        testimonial: ``,
+        name: 'Vicente Cuevas',
+        job: 'Undergraduate Thesis Student',
+        image: {
+          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
+          alt: 'VC',
+          loading: 'eager',
+        },
+      },
+      {
+        testimonial: ``,
+        name: 'Fabricio Oyarce',
+        job: 'Undergraduate Thesis Student - Engineering in Acoustics - UACh',
+        image: {
+          src: '../src/assets/images/members/foy-photo.jpg',
+          alt: 'FOY',
+          loading: 'eager',
+        },
+      },
+      {
+        testimonial: ``,
+        name: 'Cristóbal González',
+        job: 'Under-Graduate Student Engineering in Acoustics - UACh',
+        image: {
+          src: '../src/assets/images/members/cgs-photo.jpeg',
+          alt: 'CGS',
+        },
+      },
+      {
+        testimonial: ``,
+        name: 'Rodrigo Sanchez',
+        job: 'MSc. Thesis Acoustics and Vibrations',
+        image: {
+          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
+          alt: 'RS',
+          loading: 'eager',
+        },
+      }
+    ]}
+  />
+
+  <!-- Testimonials Widget  Former Members*********** -->
+
+  <Testimonials
+    title="Former Members"
+    subtitle="Discover our former members.",
+    tagline = "Members",
+    testimonials={[
+      {
+        testimonial: ``,
+        name: 'Felipe Orellana',
+        job: 'Mg. Engineering in Acoustics - UACh',
+        image: {
+          src: '../src/assets/images/members/rvc-photo.jpg',
+          alt: 'RVC',
+        },
+      },
+      {
+        testimonial: ``,
+        name: 'Gabriel Nuñez',
+        job: 'Mg. Engineering in Acoustics - UACh',
+        image: {
+          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          alt: 'Sarah Hansen',
+        },
+      },
+    ]}
+  />
+
+
+  <Collaborations  {...collaborationsData}/>
+  <!-- 
+  <Bibliography bibFile="./src/data/test.bib" /> 
+  <MapComponent client:load/>
+  -->
+  <Map 
+  lat={40.416775}, 
+  lon={-3.703790}, 
+  zoom={1},
+  markers= {[
+    { lat: 40.7128, lon: -74.0060, popupText: 'Marcador en Nueva York' },
+    { lat: 34.0522, lon: -118.2437, popupText: 'Marcador en Los Ángeles' },
+    { lat: 51.5074, lon: -0.1278, popupText: 'Marcador en Londres' },
+    { lat: -39.828811, lon: -73.2628976, popupText: 'Valdivia' },
+  ]}
+  />
+
+
+</Layout>

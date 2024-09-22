@@ -1,0 +1,62 @@
+---
+import Headline from "~/components/ui/Headline.astro";
+import WidgetWrapper from "~/components/ui/WidgetWrapper.astro";
+import Image from "~/components/common/Image.astro";
+
+interface ListItem {
+  member: string;
+}
+
+interface Division {
+  title: string;
+  list: ListItem[];
+}
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  tagline?: string;
+  division: Division[];
+  id?: string;
+  isDark?: boolean;
+  classes?: Record<string, string>;
+  bg?: string;
+}
+
+const {
+  title = "",
+  subtitle = "",
+  tagline = "",
+  division = [],
+  id,
+  isDark = false,
+  classes = {},
+  bg = await Astro.slots.render("bg"),
+} = Astro.props;
+---
+
+<WidgetWrapper
+  id={id}
+  isDark={isDark}
+  containerClass={`max-w-6xl mx-auto ${classes?.container ?? ""}`}
+  bg={bg}
+>
+  <Headline title={title} subtitle={subtitle} tagline={tagline} />
+
+  <div class="flex flex-col sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {division.map(({ title, list }) => (
+      <div class="flex flex-col h-auto">
+        <div class="mb-4">
+          {title && (
+            <h2 class="text-xl font-bold leading-6">{title}</h2>
+          )}
+        </div>
+        <ul class="space-y-2">
+          {list.map(({ member }) => (
+            <li class="text-lg list-disc">{member}</li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+</WidgetWrapper>
