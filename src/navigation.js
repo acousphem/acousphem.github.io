@@ -7,12 +7,20 @@ export const headerData = {
       href: getPermalink(''),
     },
     {
+      text: 'Research',
+      href: getPermalink('/research'),
+    },
+    {
       text: 'Publications',
       href: getPermalink('/publications'),
     },
     {
       text: 'Members',
       href: getPermalink('/members'),
+    },
+    {
+      text: 'Collaborations',
+      href: getPermalink('/collabs'),
     },
     {
       text: 'Blog',
@@ -44,6 +52,7 @@ export const footerData = {
         { text: 'Research', href: '/research' },
         { text: 'Publications', href: '/publications' },
         { text: 'Members', href: '/members' },
+        { text: 'Collaborations', href: '/collabs' },
       ],
     },
     {
@@ -58,7 +67,7 @@ export const footerData = {
     {
       title: 'Lab',
       links: [
-        { text: 'About Us', href: '#' },
+        //{ text: 'About Us', href: '#' },
         { text: 'Contact', href: '#' },
       ],
     },

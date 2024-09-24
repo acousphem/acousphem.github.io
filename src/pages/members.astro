@@ -22,10 +22,10 @@ const collaborationsData = {
   tagline: "Collaborations",
   division: [
     {
-      title: "UK",
+      title: "Chile",
       list: [
-        { member: "Dr. Olga Umnova - University of Salford" },
-        { member: "Prof. Kirill Horoshenkov - University of Sheffield" },
+        { member: "Prof. J. Arenas - Universidad Austral de Chile" },
+        { member: "Dr. U. Muhlich - Universidad Austral de Chile" },
       ]
     },
     {
@@ -37,7 +37,14 @@ const collaborationsData = {
         { member: "Dr. Fabien Chevillotte - Matelys Research Lab"},
         { member: "Dr. Camille Perrot - Université Gustave Eiffel"}
       ]
-    }
+    },
+    {
+      title: "UK",
+      list: [
+        { member: "Dr. Olga Umnova - University of Salford" },
+        { member: "Prof. Kirill Horoshenkov - University of Sheffield" },
+      ]
+    },
   ],
 };
 ---
@@ -53,9 +60,9 @@ const collaborationsData = {
       {
         testimonial: ``,
         name: 'Rodolfo Venegas',
-        job: '最高 领导人',
+        job: 'Principal Investigator',
         image: {
-          src: '../src/assets/images/members/rvc-photo.jpg',
+          src: './src/assets/images/members/rvc-photo.jpg',
           alt: 'RVC',
           loading: 'eager',
         },
@@ -63,9 +70,9 @@ const collaborationsData = {
       {
         testimonial: ``,
         name: 'Claudio Caamaño',
-        job: 'MSc. Thesis Acoustics and Vibrations',
+        job: 'Research Assistant',
         image: {
-          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+          src: './src/assets/images/members/ccp-photo.jpeg',
           alt: 'CAP',
           loading: 'eager',
         },
@@ -73,7 +80,7 @@ const collaborationsData = {
       {
         testimonial: ``,
         name: 'Vicente Cuevas',
-        job: 'Undergraduate Thesis Student',
+        job: 'Undergraduate Engineering in Acoustics Student',
         image: {
           src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
           alt: 'VC',
@@ -83,9 +90,9 @@ const collaborationsData = {
       {
         testimonial: ``,
         name: 'Fabricio Oyarce',
-        job: 'Undergraduate Thesis Student - Engineering in Acoustics - UACh',
+        job: 'Undergraduate Engineering in Acoustics Student',
         image: {
-          src: '../src/assets/images/members/foy-photo.jpg',
+          src: './src/assets/images/members/foy-photo.jpg',
           alt: 'FOY',
           loading: 'eager',
         },
@@ -93,18 +100,18 @@ const collaborationsData = {
       {
         testimonial: ``,
         name: 'Cristóbal González',
-        job: 'Under-Graduate Student Engineering in Acoustics - UACh',
+        job: 'Undergraduate Engineering in Acoustics Student',
         image: {
-          src: '../src/assets/images/members/cgs-photo.jpeg',
+          src: './src/assets/images/members/cgs-photo.jpeg',
           alt: 'CGS',
         },
       },
       {
         testimonial: ``,
         name: 'Rodrigo Sanchez',
-        job: 'MSc. Thesis Acoustics and Vibrations',
+        job: 'MSc. Acoustics and Vibrations Student',
         image: {
-          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
+          src: './src/assets/images/members/rsp-photo.png',
           alt: 'RS',
           loading: 'eager',
         },
@@ -122,9 +129,9 @@ const collaborationsData = {
       {
         testimonial: ``,
         name: 'Felipe Orellana',
-        job: 'Mg. Engineering in Acoustics - UACh',
+        job: 'MSc. Engineering in Acoustics - UACh',
         image: {
-          src: '../src/assets/images/members/rvc-photo.jpg',
+          src: '../src/assets/images/members/fo-photo.jpeg',
           alt: 'RVC',
         },
       },
@@ -139,24 +146,5 @@ const collaborationsData = {
       },
     ]}
   />
-
-
-  <Collaborations  {...collaborationsData}/>
-  <!-- 
-  <Bibliography bibFile="./src/data/test.bib" /> 
-  <MapComponent client:load/>
-  -->
-  <Map 
-  lat={40.416775}, 
-  lon={-3.703790}, 
-  zoom={1},
-  markers= {[
-    { lat: 40.7128, lon: -74.0060, popupText: 'Marcador en Nueva York' },
-    { lat: 34.0522, lon: -118.2437, popupText: 'Marcador en Los Ángeles' },
-    { lat: 51.5074, lon: -0.1278, popupText: 'Marcador en Londres' },
-    { lat: -39.828811, lon: -73.2628976, popupText: 'Valdivia' },
-  ]}
-  />
-
 
 </Layout>
