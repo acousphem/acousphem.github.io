@@ -1,4 +1,6 @@
 ---
+import LeafletMap from '~/components/widgets/MapComponent.jsx';
+
 interface Marker {
   lat: number;
   lon: number;
@@ -13,36 +15,6 @@ interface Props {
 }
 
 const { lat, lon, zoom, markers } = Astro.props;
-
-//import leaflet from 'leaflet';
 ---
 
-<div id="map" class="mb-10 mx-auto w-full md:w-3/4 lg:w-1/2 h-96 "></div>
-
-<!-- 
--->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-<script define:vars={{ lat, lon, zoom, markers }}>
-  //import "../dist/leaflet"
-  //import "../dist/leaflet.css"
-  document.addEventListener('DOMContentLoaded', () => {
-    // Inicializa el mapa
-    const map = L.map('map', { minZoom: 1}).setView([lat, lon], zoom);
-
-    // Añade la capa de OpenStreetMap
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-
-    // Añade múltiples marcadores al mapa
-    markers.forEach(marker => {
-      L.marker([marker.lat, marker.lon]).addTo(map)
-        .bindPopup(marker.popupText || '')
-        //.openPopup(); // Opcional si deseas que el popup esté abierto al cargar
-    });
-  });
-</script>
-
-
+<LeafletMap lat={lat} lon={lon} zoom={zoom} markers={markers} client:only />
