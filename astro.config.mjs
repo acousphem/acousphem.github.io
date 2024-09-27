@@ -72,4 +72,7 @@ export default defineConfig({
     remarkPlugins: [remarkMath, remarkBibliography],
     rehypePlugins: [rehypeKatex],
   },
+  redirects: {
+    '/qr-code-cris': '/members'
+  }
 });
