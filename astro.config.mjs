@@ -27,6 +27,7 @@ const whenExternalScripts = (items = []) => hasExternalScripts ? Array.isArray(i
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
+  outDir: './docs',
   integrations: [react(),
     tailwind({
     applyBaseStyles: false
@@ -73,6 +74,6 @@ export default defineConfig({
     rehypePlugins: [rehypeKatex],
   },
   redirects: {
-    '/qr-code-cris': '/members'
+    '/qr-code-cris': '/'
   }
 });
