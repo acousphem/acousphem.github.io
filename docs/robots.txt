@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://acousphem.github.io/sitemap-index.xml
