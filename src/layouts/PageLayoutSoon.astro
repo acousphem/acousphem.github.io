@@ -1,0 +1,67 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import Header from '~/components/widgets/Header.astro';
+import Footer from '~/components/widgets/Footer.astro';
+import Announcement from '~/components/widgets/Announcement.astro';
+import { getPermalink, getBlogPermalink, getAsset } from '~/utils/permalinks';
+
+const headerData = {
+    links: [
+      {
+        text: 'Home',
+        href: getPermalink(''),
+      },
+    ],
+};
+
+const footerData = {
+  links: [
+    {
+      title: 'Comming Soon',
+      links: [
+        { text: 'Home', href: '' },
+      ],
+    },
+  ],
+  secondaryLinks: [
+    //{ text: 'Terms', href: getPermalink('/terms') },
+    //{ text: 'Privacy Policy', href: getPermalink('/privacy') },
+  ],
+  socialLinks: [
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/acousphem' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/acousphem' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/profile.php?id=61563897180246' },
+    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+   // { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+  ],
+  footNote: `
+    Made by AcousPhem 🔉 | All rights reserved.
+  `,
+};
+
+
+import type { MetaData } from '~/types';
+
+export interface Props {
+  metadata?: MetaData;
+}
+
+const { metadata } = Astro.props;
+---
+
+<Layout metadata={metadata}>
+  <!--
+  <slot name="announcement">
+    <Announcement />
+  </slot> 
+  <slot name="header">
+    <Header {...headerData} isSticky showRssFeed showToggleTheme />
+  </slot>
+  -->
+  <main>
+    <slot />
+  </main>
+  <slot name="footer">
+    <Footer {...footerData} />
+  </slot>
+</Layout>

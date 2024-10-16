@@ -1,0 +1,177 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Content from '~/components/widgets/Content.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'AcousPhem - An Acoustics Laborathory',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <div class="flex justify-center items-center", style="height: 90svh;">
+  <Hero
+    actions={[
+    ]}>
+    <Fragment slot="title">
+      <span class="font-light">ACOUSPHEM</span>
+      <span class="block text-blue-600 text-xl md:text-2xl tracking-wide font-medium">Acoustic Phenomena in Matter.</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Our laborathory investigates <span class="font-bold">acous</span>tic <span class="font-bold">phe</span>nomena in <span class="font-bold">m</span>atter.
+    </Fragment>
+  </Hero>
+  </div>
+
+  <!-- Note Widget ******************* 
+  <Note />
+  --> 
+  
+  <hr class="solid">
+  
+    <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    isAfterContent={true}
+    items={[
+      {
+        icon:"tabler:school",
+        title: 'Description:',
+        description:
+          'Designed a captivating event poster for an art and music festival, "ArtWave Fusion," aiming to showcase the synergy between visual art and music genres.',
+      },
+      {
+        title: 'Role:',
+        description: `Translated the festival's creative theme into a visually striking poster. Used bold typography, vibrant colors, and abstract elements to depict the fusion of art and music. Ensured the design captured the festival's vibrant atmosphere.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1619983081563-430f63602796?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Art and Music Poster Image',
+    }}
+    callToAction={{
+      target: '_blank',
+      text: 'Read More',
+      icon: 'tabler:chevron-right',
+      href: '/research',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Research
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- HighlightedPosts Widget ******* -->
+
+  <BlogLatestPosts
+    title="Find content in our Blog"
+    information={`The blog is used to display AstroWind documentation.
+                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
+                        Astro is a very interesting technology. Thanks.
+                `}
+  />
+
+  <!-- FAQs Widget ******************* 
+  
+  <FAQs
+  title="Frequently Asked Questions"
+  subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
+  tagline="FAQs"
+  classes={{ container: 'max-w-6xl' }}
+  items={[
+  {
+    title: 'Why AstroWind?',
+    description:
+    "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+  },
+  {
+    title: 'What do I need to start?',
+    description:
+    'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+  },
+  {
+    title: 'How to install the Astro + Tailwind CSS template?',
+    description:
+    "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
+  },
+  {
+    title: "What's something that you don't understand?",
+    description:
+    "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
+  },
+  {
+    title: 'What is something that you would like to try again?',
+    description:
+    "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
+  },
+  {
+    title: 'If you could only ask one question to each person you meet, what would that question be?',
+    description:
+    "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+  },
+  ]}
+  />
+  -->
+  
+  <!-- Stats Widget ****************** 
+  
+  <Stats
+  stats={[
+  { title: 'Downloads', amount: '132K' },
+  { title: 'Stars', amount: '24.8K' },
+  { title: 'Forks', amount: '10.3K' },
+  { title: 'Users', amount: '48.4K' },
+  ]}
+  />
+  -->
+  
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Follow on',
+        href: 'https://instagram.com/acousphem',
+        target: '_blank',
+        icon: 'tabler:brand-instagram',
+      },
+      {
+        variant: 'primary',
+        text: 'Follow on',
+        href: '#',
+        icon: 'tabler:brand-x',
+      }
+    ]}
+  >
+    <Fragment slot="title">
+      <!-- Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span> -->
+      Dont forget to follow us!
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
+      waste more time! :P
+    </Fragment>
+  </CallToAction>
+</Layout>
