@@ -12,10 +12,6 @@ const metadata = {
   title: 'Members',
 };
 
-const markers = [
-  { coordinates: [-74.006, 40.7128], title: 'New York' }
-];
-
 const collaborationsData = {
   title: "Our Collaborators",
   subtitle: "We work with the best",
@@ -23,30 +19,77 @@ const collaborationsData = {
   division: [
     {
       title: "Chile",
+      coordinates: [-39.828811, -73.2628976],
       list: [
-        { member: "Prof. J. Arenas - Universidad Austral de Chile" },
-        { member: "Dr. U. Muhlich - Universidad Austral de Chile" },
+        { member: "Prof. Jorge Arenas - Universidad Austral de Chile" },
+        { member: "Dr. Uwe Muhlich - Universidad Austral de Chile" },
+        { member: "MSc Juan Rebolledo - Universidad Austral de Chile"}
       ]
     },
     {
       title: "France",
+      coordinates: [46.71109, 1.7191036],
       list: [
         { member: "Dr. Claude Boutin - ENTPE & Université de Lyon" },
         { member: "Dr. Benoit Coasne - Laboratoire Interdisciplinaire de Physique CNRS & Universté Grenoble Alpes" },
         { member: "Dr. François-Xavier Bécot - Matelys Research Lab" },
         { member: "Dr. Fabien Chevillotte - Matelys Research Lab"},
-        { member: "Dr. Camille Perrot - Université Gustave Eiffel"}
+        { member: "Dr. Camille Perrot - Université Gustave Eiffel"},
+        { member: "Prof. Nicolas Dauchez - Université de Technologie de Compiègne"}
       ]
     },
     {
       title: "UK",
+      coordinates: [51.509865, -0.118092],
       list: [
         { member: "Dr. Olga Umnova - University of Salford" },
         { member: "Prof. Kirill Horoshenkov - University of Sheffield" },
+        { member: "Dr. Marco Conte  - University of Sheffield"},
+        { member: "Prof. Keith Attenborough - The Open University"},
+        { member : "Dr. Hasina Begum - University of Warwick"},
+      ]
+    },
+    {
+      title : "Poland",
+      coordinates: [51.919437, 19.145136],
+      list: [
+        {member : "Dr. Tomasz G. Zielinski - IPPT-PAN"},
+      ]
+    },
+    {
+      title: "China",
+      coordinates: [35.861660, 104.195396],
+      list : [
+        {member : "Dr. Tongyang Shi - Institute of Acoustics / Chinese Academy of Sciences"},
+        {member : "Prof. Liu Bilong - Qingdao University of Technology"},
+        {member: "Dr. Qicheng Zhang - Wuhan University"},
+      ]
+    },
+    {
+      title : "Italy",
+      coordinates: [41.871941, 12.567380],
+      list : [
+        {member : "Dr. Paolo Bonfiglio  - Materiacustica Srl"},
+      ]
+    },
+    {
+      title:"USA",
+      coordinates: [37.6, -95.665],
+      list : [
+        {member: "Prof. John Stuart Bolton - Purdue University"},
       ]
     },
   ],
 };
+
+// Transformar `collaborationsData` en marcadores
+const markers = collaborationsData.division
+  .filter(collab => collab.coordinates) // Filtra las colaboraciones que tienen coordenadas
+  .map(collab => ({
+    lat: collab.coordinates[0],
+    lon: collab.coordinates[1],
+    popupText: collab.title, // Usa el nombre del país como popupText
+  }));
 ---
 
 <Layout metadata={metadata}>
@@ -60,12 +103,7 @@ const collaborationsData = {
   lat={40.416775}, 
   lon={-3.703790}, 
   zoom={1},
-  markers= {[
-    { lat: 40.7128, lon: -74.0060, popupText: 'Marcador en Nueva York' },
-    { lat: 34.0522, lon: -118.2437, popupText: 'Marcador en Los Ángeles' },
-    { lat: 51.5074, lon: -0.1278, popupText: 'Marcador en Londres' },
-    { lat: -39.828811, lon: -73.2628976, popupText: 'Valdivia' },
-  ]}
+  markers={markers}
   />
 
 
