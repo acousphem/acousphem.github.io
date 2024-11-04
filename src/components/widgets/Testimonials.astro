@@ -39,7 +39,7 @@ const {
 
               <div class="flex flex-col">
                 {image && (
-                  <div class="w-32 h-32 rounded-full overflow-hidden m-auto">
+                  <div class="w-auto h-auto rounded-full overflow-hidden m-auto">
                     {typeof image === "string" ? (
                       <Fragment set:html={image} />
                     ) : (
@@ -47,7 +47,7 @@ const {
                         class="w-full h-full object-cover"
                         width={128}
                         height={128}
-                        widths={[128, 160]}
+                        widths={[128, 168]}
                         layout="fixed"
                         {...image}
                       />

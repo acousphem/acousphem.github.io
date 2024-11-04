@@ -1,51 +1,9 @@
 ---
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import Content from '~/components/widgets/Content.astro';
-import Hero from '~/components/widgets/Hero.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
-import Collaborations from '~/components/widgets/Collaborations.astro';
-import MapComponent from '~/components/widgets/MapComponent.jsx';
-import Map from '~/components/widgets/Map.astro';
 
 const metadata = {
   title: 'Members',
-};
-
-const markers = [
-  { coordinates: [-74.006, 40.7128], title: 'New York' }
-];
-
-const collaborationsData = {
-  title: "Our Collaborations",
-  subtitle: "We work with the best",
-  tagline: "Collaborations",
-  division: [
-    {
-      title: "Chile",
-      list: [
-        { member: "Prof. J. Arenas - Universidad Austral de Chile" },
-        { member: "Dr. U. Muhlich - Universidad Austral de Chile" },
-      ]
-    },
-    {
-      title: "France",
-      list: [
-        { member: "Dr. Claude Boutin - ENTPE & Université de Lyon" },
-        { member: "Dr. Benoit Coasne - Laboratoire Interdisciplinaire de Physique CNRS & Universté Grenoble Alpes" },
-        { member: "Dr. François-Xavier Bécot - Matelys Research Lab" },
-        { member: "Dr. Fabien Chevillotte - Matelys Research Lab"},
-        { member: "Dr. Camille Perrot - Université Gustave Eiffel"}
-      ]
-    },
-    {
-      title: "UK",
-      list: [
-        { member: "Dr. Olga Umnova - University of Salford" },
-        { member: "Prof. Kirill Horoshenkov - University of Sheffield" },
-      ]
-    },
-  ],
 };
 ---
 

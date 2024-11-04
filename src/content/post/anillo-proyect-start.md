@@ -1,12 +1,19 @@
 ---
-publishDate: 2023-07-15T00:00:00Z
-title: 'Advancing mass timber and precast concrete-timber building research by multi-physics and multi-scale engineering computations and large-scale experimental studies'
-excerpt: Proyecto Anillo 2024
-image: https://anid.cl/wp-content/uploads/2023/10/anillos-tec-2024_web_op.jpg
+publishDate: 2024-09-09
+title: ANID Proyecto Anillo 2024 started!
+excerpt: ACOUSPHEM’s Dr. Rodolfo Venegas is part of this project to Revolutionize the Construction Industry.
+image: ~/assets/images/blog/anillo-2024.jpg
 tags:
-  - landing-pages
-  - front-end
-  - resources
+  - construction industry
+  - mass timber
+  - engineering
+  - sustainable building
 metadata:
-  canonical: https://astrowind.vercel.app/landing
+  canonical: https://acousphem.github.io/
 ---
+
+We are excited to announce that Dr. Rodolfo Venegas, a researcher at ACOUSPHEM and academic at the Institute of Acoustics, is part of a prestigious research team for the ANID Technological Anillo Project. This innovative initiative, titled **“Advancing Mass Timber and Precast Concrete-Timber Building Research by Multi-Physics and Multi-Scale Engineering Computations and Large-Scale Experimental Studies”** aims to transform the construction industry in Chile.
+
+The project is led by Erick Saavedra (Universidad de Santiago de Chile) and includes a talented team of researchers: Diego Vasco (Usach), Juan Carlos Pina (Usach), Viviana Meruane (Universidad de Chile), and Dr. Venegas (Universidad Austral de Chile). Their research focuses on advancing sustainable building methods and improving construction techniques through cutting-edge computational modeling and large-scale experimental studies.
+
+This project’s potential impact on the construction industry is significant, promising new standards and materials that align with the demands for sustainable and efficient building solutions. We look forward to sharing updates on the team’s progress as they drive innovation in the field.

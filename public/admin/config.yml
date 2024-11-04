@@ -1,6 +1,10 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main
+  repo: acousphem/acousphem.github.io
+  site_domain: acousphem.github.io
+  base_url: https://acousphem.github.io
+  auth_endpoint: oauth
 
 media_folder: 'src/assets/images'
 public_folder: '/_astro'

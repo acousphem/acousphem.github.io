@@ -32,7 +32,7 @@ const LeafletMap = ({ lat, lon, zoom, markers }) => {
     }
   }, [lat, lon, zoom, markers]);
 
-  return <div id="map" className="mb-10 mx-auto w-full md:w-3/4 lg:w-1/2 h-96"></div>;
+  return <div id="map" className="mb-10 mx-auto w-full md:w-3/4 lg:w-1/2 h-96 z-0"></div>;
 };
 
 export default LeafletMap;
