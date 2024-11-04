@@ -9,8 +9,8 @@ import icon from 'astro-icon';
 import compress from 'astro-compress';
 import astrowind from './vendor/integration';
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter.mjs';
-import decapCmsOauth from "astro-decap-cms-oauth";
-import vercel from '@astrojs/vercel/serverless';
+//import decapCmsOauth from "astro-decap-cms-oauth";
+//import vercel from '@astrojs/vercel/serverless';
 
 import react from '@astrojs/react';
 
@@ -28,8 +28,8 @@ const whenExternalScripts = (items = []) => hasExternalScripts ? Array.isArray(i
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'server',
-  adapter: vercel(),
+  output: 'static',
+  //adapter: vercel(),
   integrations: [react(),
     tailwind({
     applyBaseStyles: false
@@ -55,13 +55,15 @@ export default defineConfig({
     Logger: 1
   }), astrowind({
     config: './src/config.yaml'
-  }),decapCmsOauth({
+  }),
+  /*decapCmsOauth({
     adminDisabled: false,
     adminRoute: "/admin",
     oauthDisabled: false,
     oauthLoginRoute: "/oauth",
     oauthCallbackRoute: "/oauth/callback",
-  })],
+  })*/
+],
   image: {
     service: squooshImageService(),
     domains: ['cdn.pixabay.com']
