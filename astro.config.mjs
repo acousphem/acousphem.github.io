@@ -28,8 +28,8 @@ const whenExternalScripts = (items = []) => hasExternalScripts ? Array.isArray(i
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'static',
-  //adapter: vercel(),
+  output: 'server',
+  adapter: vercel(),
   integrations: [react(),
     tailwind({
     applyBaseStyles: false
