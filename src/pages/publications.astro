@@ -1,0 +1,91 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import WidgetWrapper from "~/components/ui/WidgetWrapper.astro";
+import { parseBibFile } from '../utils/parseBib';
+
+const metadata = {
+  title: 'Publications',
+};
+
+const bibData = parseBibFile('./src/data/ACOUSPHEM_Papers_2024.bib');
+
+// Agrupar publicaciones por año
+const publicationsByYear = bibData.reduce((acc, pub) => {
+  const year = pub.entryTags.YEAR;
+  if (!acc[year]) {
+    acc[year] = [];
+  }
+  acc[year].push(pub);
+  return acc;
+}, {});
+
+// Ordenar años de más reciente a más antiguo
+const sortedYears = Object.keys(publicationsByYear).sort((a, b) => b - a);
+
+interface ListItem {
+  member: string;
+}
+
+interface Division {
+  title: string;
+  list: ListItem[];
+}
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  tagline?: string;
+  division: Division[];
+  id?: string;
+  isDark?: boolean;
+  classes?: Record<string, string>;
+  bg?: string;
+}
+
+const {
+  title = "",
+  subtitle = "",
+  tagline = "",
+  division = [],
+  id,
+  isDark = false,
+  classes = {},
+  bg = await Astro.slots.render("bg"),
+} = Astro.props;
+---
+
+<Layout metadata={metadata}>
+
+
+<WidgetWrapper
+  id={id}
+  isDark={isDark}
+  containerClass={`max-w-6xl mx-auto ${classes?.container ?? ""}`}
+  bg={bg}
+>  
+<div>
+  {sortedYears.map(year => (
+    <div>
+      <h2 class="text-2xl font-bold my-2">{year}</h2>
+      <ul class="space-y-2">
+        {publicationsByYear[year].map(pub => (
+          <li class="text-lg list-disc"> 
+            <a name={pub.citationKey}>
+            {pub.entryTags.AUTHOR}
+            "{pub.entryTags.TITLE}",
+            {pub.entryTags.JOURNAL && `${pub.entryTags.JOURNAL}`}
+            {pub.entryTags.VOLUME && `,${(pub.entryTags.VOLUME)}`}
+            {pub.entryTags.PAGES && `,${(pub.entryTags.PAGES)}`} 
+            ({year})
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  ))}
+</div>
+
+</WidgetWrapper>
+
+</Layout>
+

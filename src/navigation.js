@@ -23,8 +23,9 @@ export const headerData = {
       href: getPermalink('/collabs'),
     },
     {
-      text: 'Blog',
-      links: [
+      text: 'News',
+      href: getBlogPermalink(),
+    /*  links: [
         {
           text: 'Blog List',
           href: getBlogPermalink(),
@@ -37,7 +38,7 @@ export const headerData = {
           text: 'Tags',
           href: getPermalink('astro', 'tag'),
         },
-      ],
+      ],*/
     },
   ],
   // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],

@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AcousPhem
-    template: '%s — AcousPhem'
-  description: "\U0001F680 An Acoustics Laborathory."
+    default: ACOUSPHEM
+    template: '%s — ACOUSPHEM'
+  description: "\U0001F680 An Acoustics Laboratory."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Acousphem
+    site_name: ACOUSPHEM
     images:
       - url: '~/assets/images/default.png'
         width: 1200

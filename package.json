@@ -30,7 +30,7 @@
     "@types/maplibre-gl": "^1.13.2",
     "@types/react": "^18.3.8",
     "@types/react-dom": "^18.3.0",
-    "astro": "^4.15.5",
+    "astro": "^4.16.17",
     "astro-embed": "^0.7.2",
     "astro-icon": "^1.1.0",
     "bibtex-js-parser": "^1.1.6",
@@ -48,7 +48,7 @@
     "react-map-gl": "^7.1.7",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
-    "rollup": "^4.21.3",
+    "rollup": "^4.28.1",
     "unpic": "^3.18.0"
   },
   "devDependencies": {
