@@ -1,8 +1,8 @@
 ---
 publishDate: 2024-09-30
 draft: false
-title: Claudio C. Parra Graduates with a Master’s in Acoustics
-excerpt: Master’s in Acoustics and Vibrations
+title: Claudio C. Parra Graduates with a MSc. in Acoustics
+excerpt: We are happy to announce a new member graduated in MSc. in Acoustics and Vibrations.
 image: ~/assets/images/blog/c_parra_defense.jpeg
 tags:
     - C. C. Parra

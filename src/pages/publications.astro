@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import WidgetWrapper from "~/components/ui/WidgetWrapper.astro";
 import { parseBibFile } from '../utils/parseBib';
+import Headline from "~/components/ui/Headline.astro";
 
 const metadata = {
   title: 'Publications',
@@ -9,48 +10,65 @@ const metadata = {
 
 const bibData = parseBibFile('./src/data/ACOUSPHEM_Papers_2024.bib');
 
-// Agrupar publicaciones por año
-const publicationsByYear = bibData.reduce((acc, pub) => {
-  const year = pub.entryTags.YEAR;
-  if (!acc[year]) {
-    acc[year] = [];
-  }
-  acc[year].push(pub);
-  return acc;
-}, {});
+/*
+const bibData =[
+  {
+    citationKey: 'JOU24B',
+    entryType: 'ARTICLE',
+    entryTags: {
+      AUTHOR: 'Boutin, C. and Venegas, R.',
+      TITLE: 'Acoustics of wet porous media with evaporation/condensation',
+      JOURNAL: 'Physics of Fluids',
+      VOLUME: '36',
+      NUMBER: '10',
+      PAGES: '103113',
+      YEAR: '2024',
+      MONTH: '10',
+    }
+  },
+] */ 
 
-// Ordenar años de más reciente a más antiguo
-const sortedYears = Object.keys(publicationsByYear).sort((a, b) => b - a);
-
-interface ListItem {
-  member: string;
-}
-
-interface Division {
-  title: string;
-  list: ListItem[];
-}
+const classifiedData = [
+{
+  type: 'Journal publications',
+  id: 'JOU',
+  pubs: bibData.filter(entry => entry.citationKey.startsWith('JOU')),
+},
+{
+  type: 'Invited talks',
+  id: 'ICON',
+  pubs: bibData.filter(entry => entry.citationKey.startsWith('ICON')),
+},
+{
+  type: 'Seminars',
+  id: 'SEM',
+  pubs: bibData.filter(entry => entry.citationKey.startsWith('SEM')),
+},
+{
+  type: 'Conferences',
+  id: 'CON',
+  pubs: bibData.filter(entry => entry.citationKey.startsWith('CON')),
+},
+];
 
 interface Props {
-  title?: string;
-  subtitle?: string;
-  tagline?: string;
-  division: Division[];
   id?: string;
   isDark?: boolean;
   classes?: Record<string, string>;
   bg?: string;
+  title?: string;
+  subtitle?: string;
+  tagline?: string;
 }
 
 const {
-  title = "",
-  subtitle = "",
-  tagline = "",
-  division = [],
   id,
   isDark = false,
   classes = {},
   bg = await Astro.slots.render("bg"),
+  title = "ACOUSPHEM Publications",
+  subtitle = "See our publications, which are categorized into journal publications, invited talks, seminars, and conferences.",
+  tagline = "Publications",
 } = Astro.props;
 ---
 
@@ -63,28 +81,52 @@ const {
   containerClass={`max-w-6xl mx-auto ${classes?.container ?? ""}`}
   bg={bg}
 >  
+<Headline title={title} subtitle={subtitle} tagline={tagline} />
 <div>
-  {sortedYears.map(year => (
-    <div>
-      <h2 class="text-2xl font-bold my-2">{year}</h2>
-      <ul class="space-y-2">
-        {publicationsByYear[year].map(pub => (
-          <li class="text-lg list-disc"> 
-            <a name={pub.citationKey}>
-            {pub.entryTags.AUTHOR}
-            "{pub.entryTags.TITLE}",
-            {pub.entryTags.JOURNAL && `${pub.entryTags.JOURNAL}`}
-            {pub.entryTags.VOLUME && `,${(pub.entryTags.VOLUME)}`}
-            {pub.entryTags.PAGES && `,${(pub.entryTags.PAGES)}`} 
-            ({year})
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
+  {classifiedData.map(({ type, id ,pubs }) => (
+   ( pubs.length > 0 &&
+      <div id={id}>
+        <h2 class="text-2xl font-bold my-2">{type}</h2>
+        <ul class="space-y-2">
+          {pubs.map(pub => (
+            <li class="text-lg list-disc" id={pub.citationKey}>
+                {pub.entryType == 'ARTICLE' ? (
+                  <span>
+                    {pub.entryTags.AUTHOR}
+                    "{pub.entryTags.TITLE}",
+                    {pub.entryTags.JOURNAL && ` ${pub.entryTags.JOURNAL}`}
+                    {pub.entryTags.VOLUME && `${pub.entryTags.VOLUME}`}
+                    {pub.entryTags.NUMBER && `(${pub.entryTags.NUMBER})`}
+                    {pub.entryTags.PAGES && `, ${pub.entryTags.PAGES}`}
+                    ({pub.entryTags.YEAR}).
+                  </span>
+                ) : pub.entryType == 'INPROCEEDINGS' ? (
+                  <span>
+                    {pub.entryTags.AUTHOR}
+                    "{pub.entryTags.TITLE}",
+                    {pub.entryTags.BOOKTITLE && ` ${pub.entryTags.BOOKTITLE}`}
+                    {pub.entryTags.PAGES && `, ${pub.entryTags.PAGES}`}
+                    ({pub.entryTags.YEAR}).
+                    {pub.entryTags.HOST && ` Host: ${pub.entryTags.HOST}`}
+                  </span>
+                ) : null}
+              
+                {pub.entryTags.DOI ? (
+                    <a href={`https://doi.org/${pub.entryTags.DOI}`} target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 underline">
+                    [DOI]
+                  </a>
+                ) : pub.entryTags.URL ? (
+                  <a href={pub.entryTags.URL} target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 underline">
+                    [DOI]
+                  </a>
+                ) : null}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
   ))}
 </div>
-
 </WidgetWrapper>
 
 </Layout>

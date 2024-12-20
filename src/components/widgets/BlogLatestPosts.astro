@@ -47,7 +47,7 @@ const posts = APP_BLOG.isEnabled ? await findLatestPosts({ count }) : [];
           </div>
         )}
 
-        {/* {information && <p class="text-muted dark:text-slate-400 lg:text-sm lg:max-w-md" set:html={information} />} */}
+        {information && <p class="text-muted dark:text-slate-400 lg:text-sm lg:max-w-md" set:html={information} />}
       </div>
 
       <Flex posts={posts} />

@@ -1,5 +1,6 @@
 ---
 import Testimonials from '~/components/widgets/Testimonials.astro';
+import FormerMembers from '~/components/widgets/FormerMembers.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
@@ -17,7 +18,7 @@ const metadata = {
     testimonials={[
       {
         testimonial: ``,
-        name: 'Rodolfo Venegas',
+        name: 'Dr. Rodolfo Venegas',
         job: 'Principal Investigator',
         image: {
           src: '~/assets/images/members/rvc-photo.jpg',
@@ -27,11 +28,21 @@ const metadata = {
       },
       {
         testimonial: ``,
-        name: 'Claudio Caamaño',
+        name: 'MSc. Claudio Caamaño',
         job: 'Research Assistant',
         image: {
           src: '~/assets/images/members/ccp-photo.jpeg',
           alt: 'CAP',
+          loading: 'eager',
+        },
+      },
+      {
+        testimonial: ``,
+        name: 'Esteban Alarcón',
+        job: 'MSc. Acoustics and Vibrations Student',
+        image: {
+          src: '~/assets/images/members/ea-photo.jpeg',
+          alt: 'RVC',
           loading: 'eager',
         },
       },
@@ -62,8 +73,10 @@ const metadata = {
         image: {
           src: '~/assets/images/members/cgs-photo.jpeg',
           alt: 'CGS',
+          loading: 'eager',
         },
       },
+      /*
       {
         testimonial: ``,
         name: 'Rodrigo Sanchez',
@@ -74,33 +87,45 @@ const metadata = {
           loading: 'eager',
         },
       }
+      */
     ]}
   />
 
   <!-- Testimonials Widget  Former Members*********** -->
 
-  <Testimonials
+  <FormerMembers
     title="Former Members"
     subtitle="Discover our former members.",
     tagline = "Members",
     testimonials={[
       {
         testimonial: ``,
-        name: 'Felipe Orellana',
-        job: 'MSc. Engineering in Acoustics - UACh',
+        name: 'MSc. F. Orellana',
+        job: 'now professional diploma student at Pontificia Universidad Católica de Chile',
         image: {
           src: '~/assets/images/members/fo-photo.jpeg',
           alt: 'Felipe Orellana',
         },
       },
       {
-        testimonial: ``,
-        name: 'Gabriel Nuñez',
-        job: 'Mg. Engineering in Acoustics - UACh',
-        image: {
-          src: '~/assets/images/members/gn-photo.png',
-          alt: 'Gabriel Nuñez',
-        },
+        name: 'Dr. Alan Sam',
+        job: 'now Postdoc at MIT',
+      },
+      {
+        name: 'MSc. E. Joinneau',
+        job: 'now MSc student at INSA Toulouse',
+      },
+      {
+        name: 'MSc. L. Mutel',
+        job: 'now PhD student at Université Gustave Eiffel',
+      },
+      {
+        name: 'MSc. G. Núñez',
+        job: 'now PhD student at Manchester University',
+      },
+      {
+        name: 'MSc. E. Gonzalez',
+        job: 'now PhD student at Universidad Politécnica de Valencia',
       },
     ]}
   />

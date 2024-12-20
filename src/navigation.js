@@ -49,29 +49,29 @@ export const footerData = {
     {
       title: 'Lab',
       links: [
-        { text: 'Home', href: '' },
-        { text: 'Research', href: '/research' },
-        { text: 'Publications', href: '/publications' },
-        { text: 'Members', href: '/members' },
-        { text: 'Collaborations', href: '/collabs' },
+        { text: 'Home', href: getPermalink('') },
+        { text: 'Research', href: getPermalink('/research') },
+        { text: 'Publications', href: getPermalink('/publications') },
+        { text: 'Members', href: getPermalink('/members') },
+        { text: 'Collaborations', href: getPermalink('/collabs') },
       ],
     },
     {
-      title: 'Blog',
+      title: 'News',
       links: [
-        { text: 'Blog', href: '#' },
+        { text: 'Blog', href: '/blog' },
         { text: 'Categories', href: '#' },
         { text: 'Tags', href: '#' },
-        { text: 'News', href: '#' },
+        //{ text: 'News', href: '#' },
       ],
     },
-    {
+    /*{
       title: 'Lab',
       links: [
         //{ text: 'About Us', href: '#' },
         { text: 'Contact', href: '#' },
       ],
-    },
+    },*/
   ],
   secondaryLinks: [
     //{ text: 'Terms', href: getPermalink('/terms') },

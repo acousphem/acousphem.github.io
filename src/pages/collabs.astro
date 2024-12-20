@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import Collaborations from '~/components/widgets/Collaborations.astro';
 import Map from '~/components/widgets/Map.astro';
+import { LinkPreview } from 'astro-embed';
 
 const metadata = {
   title: 'Members',
@@ -9,81 +10,104 @@ const metadata = {
 
 const collaborationsData = {
   title: "Our Collaborators",
-  subtitle: "We work with the best",
+  subtitle: "We work with the following institutions and researchers, nationally and internationally.",
   tagline: "Collaborations",
   division: [
     {
       title: "Chile",
-      coordinates: [-39.828811, -73.2628976],
       list: [
-        { member: "Prof. Jorge Arenas - Universidad Austral de Chile" },
-        { member: "Dr. Uwe Muhlich - Universidad Austral de Chile" },
-        { member: "MSc Juan Rebolledo - Universidad Austral de Chile"}
+        { member: "Prof. Jorge Arenas", afill:"Universidad Austral de Chile", link:"https://www.acusticauach.cl/"},
+        { member: "Dr. Uwe Muhlich", afill:"Universidad Austral de Chile"},
+        { member: "MSc. Juan Rebolledo", afill:"Universidad Austral de Chile"},
+        { member: "Dr. Erick Saavedra", afill:"Universidad de Santiago de Chile"},
       ]
     },
     {
       title: "France",
-      coordinates: [46.71109, 1.7191036],
       list: [
-        { member: "Dr. Claude Boutin - ENTPE & Université de Lyon" },
-        { member: "Dr. Benoit Coasne - Laboratoire Interdisciplinaire de Physique CNRS & Universté Grenoble Alpes" },
-        { member: "Dr. François-Xavier Bécot - Matelys Research Lab" },
-        { member: "Dr. Fabien Chevillotte - Matelys Research Lab"},
-        { member: "Dr. Camille Perrot - Université Gustave Eiffel"},
-        { member: "Prof. Nicolas Dauchez - Université de Technologie de Compiègne"}
+        { member: "Dr. Claude Boutin", afill:"ENTPE & Université de Lyon", link:"https://entpe.fr/"},
+        { member: "Dr. Benoit Coasne", afill:"Laboratoire Interdisciplinaire de Physique CNRS & Universté Grenoble Alpes", link:"https://benoitcoasne.github.io/"},
+        { member: "Dr. François-Xavier Bécot", afill:"Matelys Research Lab", link:"https://www.matelys.com/"},
+        { member: "Dr. Fabien Chevillotte", afill:"Matelys Research Lab", link:"https://www.matelys.com/"},
+        { member: "Dr. Camille Perrot", afill:"MSME & Université Gustave Eiffel", link:"https://msme.univ-gustave-eiffel.fr/"},
+        { member: "Prof. Nicolas Dauchez", afill:"Laboratoire Roberval & Université de Technologie de Compiègne", link:"https://roberval.utc.fr/"}
       ]
     },
     {
       title: "UK",
-      coordinates: [51.509865, -0.118092],
       list: [
-        { member: "Dr. Olga Umnova - University of Salford" },
-        { member: "Prof. Kirill Horoshenkov - University of Sheffield" },
-        { member: "Dr. Marco Conte  - University of Sheffield"},
-        { member: "Prof. Keith Attenborough - The Open University"},
-        { member : "Dr. Hasina Begum - University of Warwick"},
+        { member: "Dr. Olga Umnova", afill:"University of Salford", link:"https://hub.salford.ac.uk/sirc-acoustics/"},
+        { member: "Prof. Kirill Horoshenkov", afill:"University of Sheffield", link:"https://www.sheffield.ac.uk/mac/people/mech-eng-academic-staff/kirill-v-horoshenkov"},
+        { member: "Dr. Marco Conte", afill:"University of Sheffield"},
+        { member: "Prof. Keith Attenborough", afill:"The Open University"},
+        { member: "Dr. Hasina Begum", afill:"University of Warwick"},
       ]
     },
     {
       title : "Poland",
-      coordinates: [51.919437, 19.145136],
       list: [
-        {member : "Dr. Tomasz G. Zielinski - IPPT-PAN"},
+        {member : "Dr. Tomasz G. Zielinski", afill:"IPPT-PAN", link:"https://www.ippt.pan.pl/"},
       ]
     },
     {
       title: "China",
-      coordinates: [35.861660, 104.195396],
       list : [
-        {member : "Dr. Tongyang Shi - Institute of Acoustics / Chinese Academy of Sciences"},
-        {member : "Prof. Liu Bilong - Qingdao University of Technology"},
-        {member: "Dr. Qicheng Zhang - Wuhan University"},
+        {member : "Dr. Tongyang Shi", afill:"Institute of Acoustics / Chinese Academy of Sciences", link:"http://www.ioa.cas.cn/"},
+        {member : "Prof. Liu Bilong", afill:"Qingdao University of Technology"},
+        {member: "Dr. Qicheng Zhang", afill:"Wuhan University"},
       ]
     },
     {
       title : "Italy",
-      coordinates: [41.871941, 12.567380],
       list : [
-        {member : "Dr. Paolo Bonfiglio  - Materiacustica Srl"},
+        {member : "Dr. Paolo Bonfiglio", afill:"Materiacustica Srl"},
       ]
     },
     {
       title:"USA",
-      coordinates: [37.6, -95.665],
       list : [
-        {member: "Prof. John Stuart Bolton - Purdue University"},
+        {member: "Prof. John Stuart Bolton", afill:"Purdue University"},
       ]
     },
   ],
 };
 
-// Transformar `collaborationsData` en marcadores
-const markers = collaborationsData.division
-  .filter(collab => collab.coordinates) // Filtra las colaboraciones que tienen coordenadas
-  .map(collab => ({
-    lat: collab.coordinates[0],
-    lon: collab.coordinates[1],
-    popupText: collab.title, // Usa el nombre del país como popupText
+const locations = {
+  list:[
+    //Chile
+    {location: "Universidad Austral de Chile", coordinates: [-39.8329562, -73.2511895]},
+    {location: "Universidad de Santiago de Chile", coordinates: [-33.4504344, -70.6850102]},
+    //France
+    {location: "Université de Lyon", coordinates: [45.7456458, 4.8108377]},
+    {location: "ENTPE", coordinates: [45.7790267, 4.9214954]},
+    //{location: "Université Grenoble Alpes", coordinates: [45.186507, 5.726929]},
+    {location: "LiPhy (Laboratoire Interdisciplinaire de Physique)", coordinates: [45.197264, 5.768688]},
+    {location: "Matelys Research Lab", coordinates: [45.7470121, 4.8487748]},
+    {location: "Université Gustave Eiffel", coordinates: [48.8390472, 2.5766648]},
+    {location: "Laboratoire Roberval", coordinates: [49.4004291, 2.7971091]},
+    //UK
+    {location: "University of Salford", coordinates: [53.4879201, -2.275]},
+    {location: "University of Sheffield", coordinates: [53.3813, -1.4911]},
+    {location: "The Open University", coordinates: [51.9995, -0.7404]},
+    {location: "University of Warwick", coordinates: [52.3791, -1.5601]},
+    //Poland
+    {location: "IPPT-PAN", coordinates: [52.219, 21.033]},
+    //China
+    {location: "Institute of Acoustics / Chinese Academy of Sciences", coordinates: [39.9853203, 116.3010485]},
+    {location: "Qingdao University of Technology", coordinates: [36.067108, 120.382609]},
+    {location: "Wuhan University", coordinates: [30.543494, 114.361755]},
+    //Italy
+    {location: "Materiacustica Srl", coordinates: [44.8328831, 11.5961107]},
+    //USA
+    {location: "Purdue University", coordinates: [40.428, -86.914]},
+]};
+
+const markers = locations.list
+  .filter(loc => loc.coordinates) // Filtra las ubicaciones que tienen coordenadas
+  .map(loc => ({
+    lat: loc.coordinates[0],    // Extrae la latitud
+    lon: loc.coordinates[1],    // Extrae la longitud
+    popupText: loc.location,    // Usa el nombre de la ubicación como popupText
   }));
 ---
 
@@ -94,7 +118,7 @@ const markers = collaborationsData.division
   <Bibliography bibFile="./src/data/test.bib" /> 
   <MapComponent client:load/>
   -->
-  <Map 
+  <Map
   lat={40.416775}, 
   lon={-3.703790}, 
   zoom={1},

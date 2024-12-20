@@ -4,7 +4,9 @@ import WidgetWrapper from "~/components/ui/WidgetWrapper.astro";
 import Image from "~/components/common/Image.astro";
 
 interface ListItem {
-  member: string;
+  member?: string;
+  afill: string;
+  link?: string;
 }
 
 interface Division {
@@ -52,8 +54,14 @@ const {
           )}
         </div>
         <ul class="space-y-2">
-          {list.map(({ member }) => (
-            <li class="text-lg list-disc">{member}</li>
+          {list.map(({ member, afill, link}) => (
+            <li class="text-lg list-disc">{member} - 
+            {link ? (
+                <a class="text-blue-600 dark:text-blue-400" href={link} target="_blank" rel="noopener noreferrer">{afill}</a>
+              ) : (
+                <span>{afill}</span>
+              )} 
+            </li>
           ))}
         </ul>
       </div>

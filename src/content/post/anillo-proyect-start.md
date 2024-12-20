@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-09-09
 title: ANID Proyecto Anillo 2024 started!
-excerpt: ACOUSPHEM’s Dr. Rodolfo Venegas is part of this project to Revolutionize the Construction Industry.
+excerpt: ACOUSPHEM’s is part of this project in collaboration with USACh.
 image: ~/assets/images/blog/anillo-2024.jpg
 tags:
   - construction industry
@@ -16,4 +16,10 @@ We are excited to announce that Dr. Rodolfo Venegas, a researcher at ACOUSPHEM a
 
 The project is led by Erick Saavedra (Universidad de Santiago de Chile) and includes a talented team of researchers: Diego Vasco (Usach), Juan Carlos Pina (Usach), Viviana Meruane (Universidad de Chile), and Dr. Venegas (Universidad Austral de Chile). Their research focuses on advancing sustainable building methods and improving construction techniques through cutting-edge computational modeling and large-scale experimental studies.
 
-This project’s potential impact on the construction industry is significant, promising new standards and materials that align with the demands for sustainable and efficient building solutions. We look forward to sharing updates on the team’s progress as they drive innovation in the field.
+[FCI UACh Note](https://ingenieria.uach.cl/noticias/investigador-de-acustica-uach-participa-en-proyecto-anillo-tecnologico-anid-sobre-madera-masiva/)
+
+[USACh Note](https://www.usach.cl/usach-se-adjudica-pionero-proyecto-en-construccion-hibrida-madera-hormigon)
+
+[Interview to Dr. E. Saavedra on Radio USACh](https://www.youtube.com/watch?v=hdBz-ZnTMPI)
+
+[Madera 21 Note](https://www.madera21.cl/blog/2024/07/31/universidad-de-santiago-se-adjudica-anillo-tecnologico-de-anid-para-investigacion-de-edificios-hibridos/)
