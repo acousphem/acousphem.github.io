@@ -2,7 +2,7 @@
 publishDate: 2024-12-09
 title: ACOUSPHEM visit to USACH's labs
 excerpt: ACOUSPHEM members visited the Civil Engineering Labs at USACh.
-image: ~/assets/images/blog/visit_USACH_2024_12_09.jpg
+image: ~/assets/images/blog/visit_USACH_2024_12_09.jpeg
 tags:
   - ACT240015
   - mass timber
@@ -18,6 +18,3 @@ We thank USACh for their warm welcome.
 
 [Lab pictures](https://www.instagram.com/p/DEDs743Pktk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 [Seminar pictures](https://www.instagram.com/p/DDfxPGzPm72/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
-
-
-
