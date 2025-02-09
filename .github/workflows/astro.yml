@@ -33,6 +33,9 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      - name: Secret test
+        run: echo ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
+
       - name: Checkout
         uses: actions/checkout@v4
       - name: Detect package manager
@@ -66,7 +69,7 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
         working-directory: ${{ env.BUILD_PATH }}
-        
+
       - name: Build TinaCMS
         env:
           TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
