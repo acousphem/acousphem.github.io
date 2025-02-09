@@ -33,9 +33,6 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Secret test
-        run: echo ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
-
       - name: Checkout
         uses: actions/checkout@v4
       - name: Detect package manager
