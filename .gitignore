@@ -1,3 +1,8 @@
-node_modules
-
 *.DS_Store
+
+# .gitignore en Astro y Strapi
+node_modules
+.env
+dist # o carpeta de construcción de tu frontend si aplica
+.cache # carpeta de caché de Astro
+# ... otros archivos/carpetas que no quieras en el repo público
