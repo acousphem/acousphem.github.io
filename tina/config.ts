@@ -21,7 +21,7 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "~/assets/",
+      mediaRoot: "src/assets/",
       publicFolder: "/",
     },
   },
@@ -48,8 +48,26 @@ export default defineConfig({
           },
           {
             type: "image",
-            name: "image",
+            name: "imgae",
             label: "Hero Image",
+            ui: {
+              // Al cargar el valor para la UI, se transforma de: 
+              //   "~/assets/images/blog/anillo-2024.jpg"
+              // a:
+              //   "/src/assets/images/blog/anillo-2024.jpg"
+              format(value) {
+                if (!value) return value;
+                return value.replace('~/assets/', '/src/assets/');
+              },
+              // Al guardar el valor, se transforma de:
+              //   "/src/assets/"
+              // a:
+              //   "~/assets/"
+              parse(value) {
+                if (!value) return value;
+                return value.replace('/src/assets/', '~/assets/');
+              },
+            },
             required: true,
           },
           {
