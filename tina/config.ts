@@ -48,7 +48,7 @@ export default defineConfig({
           },
           {
             type: "image",
-            name: "imgae",
+            name: "image",
             label: "Hero Image",
             ui: {
               // Al cargar el valor para la UI, se transforma de: 
