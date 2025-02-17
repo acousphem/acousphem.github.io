@@ -7,7 +7,7 @@ tags:
   - FONDECYT Regular 1211310
 ---
 
-We are pleased to announce that the proceedings of FIA 2024 are now available for free access. In this congress ACOUSPHEM published 5 papers and 1 plenary talk.
+We are pleased to announce that the proceedings of FIA 2024 are now available for free access. In this congress ACOUSPHEM published 5 articles and R. Venegas made a keynote conference.
 
 * V. Cuevas, C. C. Parra, R. Venegas "Absorción sonora de materiales granulares compuestos nanoporosos", 298-304
 * C. C. Parra, R. Venegas, C. Boutin "Propiedades acústicas efectivas de metamateriales permeables constituidos por inclusiones rotatorias", 666-676
