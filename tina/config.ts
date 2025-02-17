@@ -84,6 +84,12 @@ export default defineConfig({
             required: false,
           },
           {
+            type: "string",
+            name: "category",
+            label: "Category",
+            required: false,
+          },
+          {
             type: 'boolean',
             name: 'draft',
             label: 'Is a Draft?'
