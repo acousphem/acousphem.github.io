@@ -55,10 +55,12 @@ export default defineConfig({
               //   "~/assets/images/blog/anillo-2024.jpg"
               // a:
               //   "/src/assets/images/blog/anillo-2024.jpg"
+              /*
               format(value) {
                 if (!value) return value;
                 return value.replace('~/assets/', '/src/assets/');
               },
+              */
               // Al guardar el valor, se transforma de:
               //   "/src/assets/"
               // a:
