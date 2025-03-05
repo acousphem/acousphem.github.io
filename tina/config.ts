@@ -51,23 +51,19 @@ export default defineConfig({
             name: "image",
             label: "Hero Image",
             ui: {
-              // Al cargar el valor para la UI, se transforma de: 
-              //   "~/assets/images/blog/anillo-2024.jpg"
-              // a:
-              //   "/src/assets/images/blog/anillo-2024.jpg"
-              /*
               format(value) {
+                console.log("Format received:", value);
                 if (!value) return value;
-                return value.replace('~/assets/', '/src/assets/');
+                const formatted = value.replace("~/assets/", "/src/assets/");
+                //console.log("Format returned:", formatted);
+                return formatted;
               },
-              */
-              // Al guardar el valor, se transforma de:
-              //   "/src/assets/"
-              // a:
-              //   "~/assets/"
               parse(value) {
+                console.log("Parse received:", value);
                 if (!value) return value;
-                return value.replace('/src/assets/', '~/assets/');
+                const parsed = value.replace("/src/assets/", "~/assets/");
+                //console.log("Parse returned:", parsed);
+                return parsed;
               },
             },
             required: true,

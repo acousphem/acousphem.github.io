@@ -4,6 +4,7 @@ declare module 'astro:content' {
 			Content: import('astro').MarkdownInstance<{}>['Content'];
 			headings: import('astro').MarkdownHeading[];
 			remarkPluginFrontmatter: Record<string, any>;
+			components: import('astro').MDXInstance<{}>['components'];
 		}>;
 	}
 }
@@ -156,56 +157,56 @@ declare module 'astro:content' {
   slug: "fia-2024-conference-proceedings";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "acousphem-at-fia-2024.md": {
 	id: "acousphem-at-fia-2024.md";
   slug: "acousphem-at-fia-2024";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "anillo-project-visit_to_uach.md": {
 	id: "anillo-project-visit_to_uach.md";
   slug: "anillo-project-visit_to_uach";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "anillo-proyect-start.md": {
 	id: "anillo-proyect-start.md";
   slug: "anillo-proyect-start";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "astrowind-template-in-depth.mdx": {
 	id: "astrowind-template-in-depth.mdx";
   slug: "astrowind-template-in-depth";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".mdx"] };
 "ccparra-graduated.md": {
 	id: "ccparra-graduated.md";
   slug: "ccparra-graduated";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "forellana-graduated.md": {
 	id: "forellana-graduated.md";
   slug: "forellana-graduated";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "markdown-elements-demo-post.mdx": {
 	id: "markdown-elements-demo-post.mdx";
   slug: "markdown-elements-demo-post";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".mdx"] };
 };
 
@@ -217,5 +218,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("../../src/content/config.js");
 }
