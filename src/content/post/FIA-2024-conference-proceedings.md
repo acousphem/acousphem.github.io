@@ -1,7 +1,7 @@
 ---
 title: The FIA 2024 conference proceedings is now available!
 excerpt: You can access the link in the post to review ACOUSPHEM's articles.
-image: /src/assets/images/blog/FIA2024_proceedings.jpeg
+image: /src/assets/images/blog/anillo-2024.jpg
 publishDate: 2025-02-17T03:00:00.000Z
 tags:
   - FONDECYT Regular 1211310
