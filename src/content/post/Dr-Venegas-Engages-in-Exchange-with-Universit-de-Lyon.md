@@ -3,7 +3,7 @@ title: Dr. Venegas Engages in Exchange with Université de Lyon
 image: /src/assets/images/blog/venegas_boutin1.png
 publishDate: 2022-06-01T04:00:00.000Z
 tags:
-  - '1211310'
+  - FONDECYT Regular 1211310
   - Claude Boutin
   - ENTPE
 category: ''
