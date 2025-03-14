@@ -54,15 +54,15 @@ export default defineConfig({
               format(value) {
                 console.log("Format received:", value);
                 if (!value) return value;
-                const formatted = value.replace("~/assets/", "/src/assets/");
-                //console.log("Format returned:", formatted);
+                const formatted = value.replace(/^~\/assets\//, "/src/assets/");
+                console.log("Format returned:", formatted);
                 return formatted;
               },
               parse(value) {
                 console.log("Parse received:", value);
                 if (!value) return value;
-                const parsed = value.replace("/src/assets/", "~/assets/");
-                //console.log("Parse returned:", parsed);
+                const parsed = value.replace(/^\/?src\/assets\//, '~/assets/');
+                console.log("Parse returned:", parsed);
                 return parsed;
               },
             },
