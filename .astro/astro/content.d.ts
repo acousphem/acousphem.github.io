@@ -152,62 +152,69 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"post": {
+"Dr-Venegas-Engages-in-Exchange-with-Universit-de-Lyon.md": {
+	id: "Dr-Venegas-Engages-in-Exchange-with-Universit-de-Lyon.md";
+  slug: "dr-venegas-engages-in-exchange-with-universit-de-lyon";
+  body: string;
+  collection: "post";
+  data: any
+} & { render(): Render[".md"] };
+"Dr-Venegas-Shares-Fondecyt-1211310-Project-Results-in-the-UK.md": {
+	id: "Dr-Venegas-Shares-Fondecyt-1211310-Project-Results-in-the-UK.md";
+  slug: "dr-venegas-shares-fondecyt-1211310-project-results-in-the-uk";
+  body: string;
+  collection: "post";
+  data: any
+} & { render(): Render[".md"] };
 "FIA-2024-conference-proceedings.md": {
 	id: "FIA-2024-conference-proceedings.md";
   slug: "fia-2024-conference-proceedings";
   body: string;
   collection: "post";
-  data: InferEntrySchema<"post">
+  data: any
+} & { render(): Render[".md"] };
+"International-Researchers-Join-ACOUSPHEM.md": {
+	id: "International-Researchers-Join-ACOUSPHEM.md";
+  slug: "international-researchers-join-acousphem";
+  body: string;
+  collection: "post";
+  data: any
 } & { render(): Render[".md"] };
 "acousphem-at-fia-2024.md": {
 	id: "acousphem-at-fia-2024.md";
   slug: "acousphem-at-fia-2024";
   body: string;
   collection: "post";
-  data: InferEntrySchema<"post">
+  data: any
 } & { render(): Render[".md"] };
 "anillo-project-visit_to_uach.md": {
 	id: "anillo-project-visit_to_uach.md";
   slug: "anillo-project-visit_to_uach";
   body: string;
   collection: "post";
-  data: InferEntrySchema<"post">
+  data: any
 } & { render(): Render[".md"] };
 "anillo-proyect-start.md": {
 	id: "anillo-proyect-start.md";
   slug: "anillo-proyect-start";
   body: string;
   collection: "post";
-  data: InferEntrySchema<"post">
+  data: any
 } & { render(): Render[".md"] };
-"astrowind-template-in-depth.mdx": {
-	id: "astrowind-template-in-depth.mdx";
-  slug: "astrowind-template-in-depth";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".mdx"] };
 "ccparra-graduated.md": {
 	id: "ccparra-graduated.md";
   slug: "ccparra-graduated";
   body: string;
   collection: "post";
-  data: InferEntrySchema<"post">
+  data: any
 } & { render(): Render[".md"] };
 "forellana-graduated.md": {
 	id: "forellana-graduated.md";
   slug: "forellana-graduated";
   body: string;
   collection: "post";
-  data: InferEntrySchema<"post">
+  data: any
 } & { render(): Render[".md"] };
-"markdown-elements-demo-post.mdx": {
-	id: "markdown-elements-demo-post.mdx";
-  slug: "markdown-elements-demo-post";
-  body: string;
-  collection: "post";
-  data: InferEntrySchema<"post">
-} & { render(): Render[".mdx"] };
 };
 
 	};
@@ -218,5 +225,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../../src/content/config.js");
+	export type ContentConfig = never;
 }
