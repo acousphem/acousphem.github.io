@@ -21,6 +21,6 @@ Their research contributes to the Fondecyt Regular 1211310 project, directed by 
 Local and International Synergy
 The ACOUSPHEM team includes UACh academics such as Dr. Venegas and Prof. Juan Rebolledo (Institute of Materials and Thermomechanical Processes), alongside graduate and undergraduate students specializing in acoustics and vibrations. The group’s growth reflects its commitment to fostering long-term international partnerships and empowering emerging scholars.
 
-For further details on this news please visit the [Acústica UACh website](https://www.acusticauach.cl/?p=15825).
+For further details on this news please visit the [Acústica UACh website](https://www.acusticauach.cl?p=15825).
 
-<p><small>This post was generated with the assistance of AI.</small></p>
+<p><small><i>This post was generated with the assistance of AI.</i></small></p>

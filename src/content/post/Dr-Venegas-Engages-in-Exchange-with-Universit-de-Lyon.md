@@ -14,4 +14,4 @@ During the first quarter of 2022, two international academic exchanges took plac
 
 Together, they advanced theories on acoustic wave propagation in permeable materials with internal sources, using sophisticated physical and mathematical methods. Some of the results have already been submitted for publication, while others will be presented at an upcoming international conference.
 
-<p><small>This post was generated with the assistance of AI.</small></p>
+<p><small><i>This post was generated with the assistance of AI.</i></small></p>

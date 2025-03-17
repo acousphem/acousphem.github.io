@@ -18,4 +18,4 @@ Accompanied by graduate student Gabriel Núñez—who also engaged in research a
 
 You can access this news on the [Acústica UACh website](https://www.acusticauach.cl?p=15517).
 
-<p><small>This post was generated with the assistance of AI.</small></p>
+<p><small><i>This post was generated with the assistance of AI.</i></small></p>
