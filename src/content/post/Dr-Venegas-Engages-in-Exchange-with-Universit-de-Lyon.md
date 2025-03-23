@@ -6,7 +6,7 @@ tags:
   - FONDECYT Regular 1211310
   - Claude Boutin
   - ENTPE
-category: ''
+category: Exchanges
 draft: false
 ---
 

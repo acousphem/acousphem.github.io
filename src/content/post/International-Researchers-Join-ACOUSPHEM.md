@@ -5,6 +5,7 @@ image: ~/assets/images/blog/International_Interns.jpg
 publishDate: 2023-07-15T04:00:00.000Z
 tags:
   - FONDECYT Regular 1211310
+category: Exchanges
 ---
 
 The Acoustic Phenomena in Matter (ACOUSPHEM) research group, led by Dr. Rodolfo Venegas of the UACh Institute of Acoustics, has expanded its team with the addition of three international researchers. The group, dedicated to advancing the understanding of acoustic phenomena in materials, emphasizes collaborative innovation and student-driven research.

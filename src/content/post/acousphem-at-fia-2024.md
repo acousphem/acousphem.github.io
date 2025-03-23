@@ -5,6 +5,7 @@ image: ~/assets/images/blog/fia2024.jpg
 publishDate: 2025-02-03T03:00:00.000Z
 tags:
   - FONDECYT Regular 1211310
+category: Conferences
 draft: true
 ---
 

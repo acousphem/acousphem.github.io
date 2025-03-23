@@ -152,68 +152,117 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"post": {
+"Academic-Exchange-Between-Acoustics-UACh-and-ENTPE--Universit-de-Lyon-for-Research-on-Active-Porous-Materials.md": {
+	id: "Academic-Exchange-Between-Acoustics-UACh-and-ENTPE--Universit-de-Lyon-for-Research-on-Active-Porous-Materials.md";
+  slug: "academic-exchange-between-acoustics-uach-and-entpe--universit-de-lyon-for-research-on-active-porous-materials";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"Claudio-C-Parra-Awarded-CIRE-Scholarship-by-the-Acoustical-Society-of-America.md": {
+	id: "Claudio-C-Parra-Awarded-CIRE-Scholarship-by-the-Acoustical-Society-of-America.md";
+  slug: "claudio-c-parra-awarded-cire-scholarship-by-the-acoustical-society-of-america";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"Dr-Rodolfo-Venegas-Completes-Research-Tour-in-Poland-and-France.md": {
+	id: "Dr-Rodolfo-Venegas-Completes-Research-Tour-in-Poland-and-France.md";
+  slug: "dr-rodolfo-venegas-completes-research-tour-in-poland-and-france";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"Dr-Rodolfo-Venegas-Delivers-Invited-Lecture-at-Cambridges-Isaac-Newton-Institute.md": {
+	id: "Dr-Rodolfo-Venegas-Delivers-Invited-Lecture-at-Cambridges-Isaac-Newton-Institute.md";
+  slug: "dr-rodolfo-venegas-delivers-invited-lecture-at-cambridges-isaac-newton-institute";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"Dr-Rodolfo-Venegas-Presents-Research-at-Forum-Acusticum-2023-in-Italy.md": {
+	id: "Dr-Rodolfo-Venegas-Presents-Research-at-Forum-Acusticum-2023-in-Italy.md";
+  slug: "dr-rodolfo-venegas-presents-research-at-forum-acusticum-2023-in-italy";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "Dr-Venegas-Engages-in-Exchange-with-Universit-de-Lyon.md": {
 	id: "Dr-Venegas-Engages-in-Exchange-with-Universit-de-Lyon.md";
   slug: "dr-venegas-engages-in-exchange-with-universit-de-lyon";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "Dr-Venegas-Shares-Fondecyt-1211310-Project-Results-in-the-UK.md": {
 	id: "Dr-Venegas-Shares-Fondecyt-1211310-Project-Results-in-the-UK.md";
   slug: "dr-venegas-shares-fondecyt-1211310-project-results-in-the-uk";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "FIA-2024-conference-proceedings.md": {
 	id: "FIA-2024-conference-proceedings.md";
   slug: "fia-2024-conference-proceedings";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "International-Researchers-Join-ACOUSPHEM.md": {
 	id: "International-Researchers-Join-ACOUSPHEM.md";
   slug: "international-researchers-join-acousphem";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"Online-Guest-Lecture-by-Dr-Rodolfo-Venegas-at-Tianjin-University-China.md": {
+	id: "Online-Guest-Lecture-by-Dr-Rodolfo-Venegas-at-Tianjin-University-China.md";
+  slug: "online-guest-lecture-by-dr-rodolfo-venegas-at-tianjin-university-china";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"Polish-Researcher-Dr-Tomasz-G-Zieliski-Completes-Research-Stay-at-UACh-Institute-of-Acoustics.md": {
+	id: "Polish-Researcher-Dr-Tomasz-G-Zieliski-Completes-Research-Stay-at-UACh-Institute-of-Acoustics.md";
+  slug: "polish-researcher-dr-tomasz-g-zieliski-completes-research-stay-at-uach-institute-of-acoustics";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "acousphem-at-fia-2024.md": {
 	id: "acousphem-at-fia-2024.md";
   slug: "acousphem-at-fia-2024";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "anillo-project-visit_to_uach.md": {
 	id: "anillo-project-visit_to_uach.md";
   slug: "anillo-project-visit_to_uach";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "anillo-proyect-start.md": {
 	id: "anillo-proyect-start.md";
   slug: "anillo-proyect-start";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "ccparra-graduated.md": {
 	id: "ccparra-graduated.md";
   slug: "ccparra-graduated";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 "forellana-graduated.md": {
 	id: "forellana-graduated.md";
   slug: "forellana-graduated";
   body: string;
   collection: "post";
-  data: any
+  data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
 };
 
@@ -225,5 +274,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("../../src/content/config.js");
 }

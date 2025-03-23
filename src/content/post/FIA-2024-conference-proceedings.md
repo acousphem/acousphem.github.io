@@ -1,10 +1,11 @@
 ---
-title: The FIA 2024 conference proceedings is now available!
+title: The FIA 2024 conference proceedings are now available!
 excerpt: You can access the link in the post to review ACOUSPHEM's articles.
 image: ~/assets/images/blog/FIA2024_proceedings.jpeg
 publishDate: 2025-02-17T03:00:00.000Z
 tags:
   - FONDECYT Regular 1211310
+category: Conferences
 ---
 
 We are pleased to announce that the proceedings of FIA 2024 are now available for free access. In this congress ACOUSPHEM published 5 articles and R. Venegas made a keynote conference.
