@@ -14,9 +14,9 @@ Dr Rodolfo Venegas, an academic of the UACh Institute of Acoustics, recently con
 
 At Internoise 2024, an international congress gathering over 1,800 participants, Dr. Venegas not only showcased his research but also chaired a specialized session and coordinated a general topic. These roles provided him with the opportunity to moderate discussions and exchange ideas with prominent researchers in his field.
 
-Before he participated in France, Dr. Venegas completed a research stay as a visiting researcher at the Institute of Fundamental Technological Research of the Polish Academy of Sciences. During this period, he collaborated with Dr. Tomasz G. Zieliński on studies addressing sound propagation in poro-elastic media with dual porosity—a collaboration that has yielded four joint publications in journals such as the Journal of Sound and Vibration, Applied Acoustics, Wave Motion, and Composites Part B.
+Before he participated in France, Dr. Venegas completed a research stay as a visiting researcher at the Institute of Fundamental Technological Research of the Polish Academy of Sciences. During this period, he collaborated with Dr Tomasz G. Zieliński on studies addressing sound propagation in poro-elastic media with dual porosity—a collaboration that has yielded four joint publications in journals such as the Journal of Sound and Vibration, Applied Acoustics, Wave Motion, and Composites Part B.
 
-![](/src/assets/images/blog/RVC-Tomas.jpg)
+![Dr Rodolfo Venegas & Dr Tomasz G. Zieliński](~/assets/images/blog/RVC-Tomas.jpg)
 
 Reflecting on these experiences, Dr Venegas stated, "It was a great honour to be invited to the Institute of Fundamental Technological Research of the Polish Academy of Sciences. The opportunity to present our work at Internoise 2024, chair a session, and coordinate a general topic allowed us to exchange ideas with leading researchers. These experiences not only strengthen our global research standing but also open new perspectives for future doctoral programs."
 
