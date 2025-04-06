@@ -4,7 +4,7 @@ site:
   #base: 'acousphem.github.io'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: ${googleSiteVerificationId}
 
 # Default SEO metadata
 metadata:
@@ -18,7 +18,7 @@ metadata:
   openGraph:
     site_name: ACOUSPHEM
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/Pic_AC_4Typesl.png'
         width: 1200
         height: 628
     type: website
@@ -44,7 +44,7 @@ apps:
 
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: 'news' # Blog main path, you can change this to "articles" (/articles)
       robots:
         index: true
 
