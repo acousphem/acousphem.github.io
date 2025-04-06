@@ -87,7 +87,7 @@ const {
    ( pubs.length > 0 &&
       <div id={id} class="mb-10">
         <h2 class="text-3xl font-bold my-2">{type}</h2>
-        <ol class="space-y-3 list-decimal" reversed>
+        <ol class="px-6 space-y-3 list-decimal" reversed>
           {pubs.map(pub => (
             <li class="text-lg" id={pub.citationKey}>
                 {pub.entryType == 'ARTICLE' ? (

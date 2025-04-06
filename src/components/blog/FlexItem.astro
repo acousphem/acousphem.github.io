@@ -20,19 +20,19 @@ const link = APP_BLOG?.post?.isEnabled
 ---
 
 <article
-  class="border-b pb-4 flex flex-col justify-between gap-4 md:gap-40 md:flex-row-reverse transition md:h-32"
+  class="border-b pb-4 flex flex-col justify-between gap-4 md:gap-8 md:flex-row-reverse transition md:h-32"
 >
-  <div class="relative bg-gray-400 dark:bg-slate-700 rounded shadow-lg">
+  <div class="relative w-full md:w-52 aspect-w-16 aspect-h-9 bg-gray-400 dark:bg-slate-700 rounded shadow-lg">
   {
     image &&
       (link ? (
         <a href={link}>
           <Image
             src={image}
-            class="w-full md:h-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
-            widths={[400, 900]}
-            width={400}
-            sizes="(max-width: 900px) 400px, 900px"
+            class="w-full md:h-full rounded object-cover shadow-lg bg-gray-400 dark:bg-slate-700"
+            widths={[400]}
+            width={900}
+            sizes="(max-width: 768px) 100vw, (min-width: 768px) 208px"
             alt={post.title}
             aspectRatio="16:9"
             loading="lazy"
