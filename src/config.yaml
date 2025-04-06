@@ -4,7 +4,7 @@ site:
   #base: 'acousphem.github.io'
   trailingSlash: false
 
-  googleSiteVerificationId: ${GOOGLESITEVERIFICATIONID}
+  googleSiteVerificationId: gsQJ8tWNUr4VtU8eNSpYXM8yhdDjkjS8CttYLWTs1xI
 
 # Default SEO metadata
 metadata:
@@ -44,7 +44,7 @@ apps:
 
     list:
       isEnabled: true
-      pathname: 'news' # Blog main path, you can change this to "articles" (/articles)
+      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
       robots:
         index: true
 
