@@ -4,7 +4,7 @@ site:
   #base: 'acousphem.github.io'
   trailingSlash: false
 
-  googleSiteVerificationId: ${googleSiteVerificationId}
+  googleSiteVerificationId: ${GOOGLESITEVERIFICATIONID}
 
 # Default SEO metadata
 metadata:
