@@ -59,9 +59,9 @@ export const footerData = {
     {
       title: 'News',
       links: [
-        { text: 'Blog', href: '/blog' },
-        { text: 'Categories', href: '#' },
-        { text: 'Tags', href: '#' },
+        { text: 'News', href: getBlogPermalink() },
+        //{ text: 'Categories', href: '#' },
+        //{ text: 'Tags', href: '#' },
         //{ text: 'News', href: '#' },
       ],
     },
