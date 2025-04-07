@@ -1,5 +1,5 @@
 
-import __ASTRO_IMAGE_IMPORT_ZxficE from "~/assets/images/blog/Tomas-Seminary2.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fpost%2FDr-Tomasz-G-Zieliski-Completes-Research-Stay-at-UACh-Institute-of-Acoustics.md";
 import __ASTRO_IMAGE_IMPORT_3Corq from "~/assets/images/blog/RVC-Tomas.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fpost%2FDr-Rodolfo-Venegas-Completes-Research-Tour-in-Poland-and-France.md";
-export default new Map([["~/assets/images/blog/Tomas-Seminary2.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fpost%2FDr-Tomasz-G-Zieliski-Completes-Research-Stay-at-UACh-Institute-of-Acoustics.md", __ASTRO_IMAGE_IMPORT_ZxficE], ["~/assets/images/blog/RVC-Tomas.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fpost%2FDr-Rodolfo-Venegas-Completes-Research-Tour-in-Poland-and-France.md", __ASTRO_IMAGE_IMPORT_3Corq]]);
+import __ASTRO_IMAGE_IMPORT_ZxficE from "~/assets/images/blog/Tomas-Seminary2.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fpost%2FDr-Tomasz-G-Zieliski-Completes-Research-Stay-at-UACh-Institute-of-Acoustics.md";
+export default new Map([["~/assets/images/blog/RVC-Tomas.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fpost%2FDr-Rodolfo-Venegas-Completes-Research-Tour-in-Poland-and-France.md", __ASTRO_IMAGE_IMPORT_3Corq], ["~/assets/images/blog/Tomas-Seminary2.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fpost%2FDr-Tomasz-G-Zieliski-Completes-Research-Stay-at-UACh-Institute-of-Acoustics.md", __ASTRO_IMAGE_IMPORT_ZxficE]]);
 		
