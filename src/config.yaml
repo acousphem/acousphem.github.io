@@ -11,7 +11,7 @@ metadata:
   title:
     default: ACOUSPHEM
     template: '%s — ACOUSPHEM'
-  description: "\U0001F680 An Acoustics Laboratory."
+  description: "The work of ACOUSPHEM aims to understand the influence of multiple physical phenomena on the propagation of waves in complex heterogeneous media such as multiscale permeable materials, metamaterials, and active and living media. "
   robots:
     index: true
     follow: true

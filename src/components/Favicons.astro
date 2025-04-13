@@ -1,10 +1,29 @@
 ---
-import favIcon from '~/assets/favicons/favicon.ico';
-import favIconSvg from '~/assets/favicons/favicon.svg';
-import appleTouchIcon from '~/assets/favicons/apple-touch-icon.png';
+import favIcon from '~/assets/favicon/favicon.ico';
+import favIconSvg from '~/assets/favicon/favicon.svg';
+import appleTouchIcon from '~/assets/favicon/apple-touch-icon.png';
+import favIcon32 from '~/assets/favicon/favicon-32x32.png';
+import favIcon16 from '~/assets/favicon/favicon-16x16.png';
 ---
 
+<!-- Favicon predeterminado -->
 <link rel="shortcut icon" href={favIcon} />
+
+<!-- Favicon en formato SVG -->
 <link rel="icon" type="image/svg+xml" href={favIconSvg.src} />
-<link rel="mask-icon" href={favIconSvg.src} color="#8D46E7" />
+
+<!-- Favicon en formato PNG para diferentes tamaños -->
+<link rel="icon" type="image/png" sizes="32x32" href={favIcon32.src} />
+<link rel="icon" type="image/png" sizes="16x16" href={favIcon16.src} />
+
+<!-- Ícono de máscara para Safari -->
+<link rel="mask-icon" href={favIconSvg.src} color="#3662E3" />
+
+<!-- Ícono para dispositivos Apple -->
 <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon.src} />
+
+<!-- Archivo de manifiesto para PWA 
+<link rel="manifest" href="/manifest.json" />-->
+
+<!-- Color de tema para navegadores móviles -->
+<meta name="theme-color" content="#3662E3" />
