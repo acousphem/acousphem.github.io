@@ -14,7 +14,7 @@ tags:
 category: Exchanges
 ---
 
-As part of the FONDECYT Regular 1211310 project, led by Dr Rodolfo Venegas from the Institue of Acoustics at UACh, two international academic exchanges occurred during the first quarter of 2023.
+As part of the FONDECYT Regular 1211310 project, led by Dr Rodolfo Venegas from the Institute of Acoustics at UACh, two international academic exchanges occurred during the first quarter of 2023.
 
 Dr. Venegas visited ENTPE & Université de Lyon to work with Dr. Claude Boutin on acoustic wave propagation in active porous materials. These materials represent an emerging field in acoustic engineering, offering potential applications in noise control, sound insulation, and loudspeaker design.
 
