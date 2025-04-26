@@ -1,5 +1,5 @@
 ---
-title: Dr Rodolfo Venegas carried our research activities in Poland and France
+title: Dr Rodolfo Venegas carried out research activities in Poland and France
 excerpt: >-
   Dr Rodolfo Venegas visited IPPT-PAN and gave an invited talk at Internoise
   2024
