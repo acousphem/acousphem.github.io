@@ -3,7 +3,7 @@ title: >-
   Fabricio Oyarce Completed His Bachelor’s Degree in Acoustic Engineering with
   Highest Honors
 excerpt: With research on active metamaterials and acoustic absorption.
-image: /src/assets/images/blog/FOyarce_Degree.jpeg
+image: ~/assets/images/blog/FOyarce_Degree.jpeg
 publishDate: 2025-04-28T04:00:00.000Z
 category: Graduations
 ---
