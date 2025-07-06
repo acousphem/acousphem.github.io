@@ -1,5 +1,5 @@
 ---
-title: ACOUSPHEM strengthens international links with research activities in France
+title: ACOUSPHEM expands academic links with French laboratories
 image: ~/assets/images/blog/RVenegas_CCP_LOMC.jpeg
 publishDate: 2025-07-04T04:00:00.000Z
 tags:
