@@ -1,6 +1,6 @@
 ---
-title: ACOUSPHEM strengthens international links with research tour in France
-image: ~/assets/images/blog/RVenegas_CCP_LOMC.jpeg
+title: ACOUSPHEM strengthens international links with research activities in France
+image: /src/assets~/assets/images/blog/RVenegas_CCP_LOMC.jpeg
 publishDate: 2025-07-04T04:00:00.000Z
 tags:
   - FONDECYT Regular 1250496
@@ -18,4 +18,4 @@ During their stay, Dr Venegas and Claudio Parra also took part in a working sess
 
 This visit to the French laboratories is part of ACOUSPHEM's internationalisation strategy, which aims to cultivate collaboration and strengthen academic ties with leading institutions, opening up new opportunities for future joint projects and scholarly exchanges.
 
-Read more on the [FCI UACh Note](https://ingenieria.uach.cl/noticias/academico-del-instituto-de-acustica-fortalece-vinculos-internacionales-con-gira-de-investigacion-en-francia/) and [AcústicaUACh Note](https://www.acusticauach.cl/?p=17080).
+Read more on the [FCI UACh Note](https://ingenieria.uach.cl/noticias/academico-del-instituto-de-acustica-fortalece-vinculos-internacionales-con-gira-de-investigacion-en-francia/) and [AcústicaUACh Note](https://www.acusticauach.cl?p=17080).
