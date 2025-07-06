@@ -1,6 +1,6 @@
 ---
 title: ACOUSPHEM strengthens international links with research activities in France
-image: ~/assets/images/blog/RVenegas_CCP_LOMC.jpeg
+image: /src/assets~/assets/images/blog/RVenegas_CCP_LOMC.jpeg
 publishDate: 2025-07-04T04:00:00.000Z
 tags:
   - FONDECYT Regular 1250496
@@ -8,9 +8,9 @@ tags:
 category: Exchanges
 ---
 
-Dr Rodolfo Venegas, recently undertook a research stay at the [Laboratoire des Ondes et Milieux Complexes (LOMC)](https://www.lomc.fr/) of the University of Le Havre Normandie in France, as part of Fondecyt Regular projects 1211310 and 1250496, and the ACT240015 Technology Ring.
+Dr Rodolfo Venegas and Claudio C. Parra, recently undertook a research stay at the [Laboratoire des Ondes et Milieux Complexes (LOMC)](https://www.lomc.fr/) of the University of Le Havre Normandie in France, as part of Fondecyt Regular projects 1211310 and 1250496, and the ACT240015 Technology Ring.
 
-Accompanied by Claudio C. Parra (Assistant Researcher at ACOUSPHEM) they delivered a seminar entitled “Wave Propagation in Porous Materials with Internal Sources”, showcasing the latest progress in their work on the acoustics of advanced materials.
+During their visit, they delivered a seminar entitled “Wave Propagation in Porous Materials with Internal Sources”, showcasing the latest progress in their work on the acoustics of advanced materials.
 
 Their tour of France also enabled collaborative research with Dr C. Guianvarc’h, Professor B. Morvan and Dr S. Bernard of the LOMC, thereby strengthening international ties. “A highlight of the visit was securing support for a doctoral thesis funded by the Normandy region,” commented Dr Venegas, who will act as its supervisor.
 
