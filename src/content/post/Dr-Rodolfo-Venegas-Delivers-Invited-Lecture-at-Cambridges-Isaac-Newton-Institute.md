@@ -1,7 +1,6 @@
 ---
 title: >-
   Dr Rodolfo Venegas delivers invited talk at Cambridge's Isaac Newton Institute for Mathematical Sciences
-  Institute
 image: ~/assets/images/blog/Rodolfo-Cambridge.jpg
 publishDate: 2023-07-20T04:00:00.000Z
 tags:
