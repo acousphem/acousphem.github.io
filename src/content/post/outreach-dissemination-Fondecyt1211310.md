@@ -1,6 +1,6 @@
 ---
 title: Sharing our research beyond the lab
-image: ~/assets/images/blog/outreach_panel_6.png
+image: /src/assets~/assets/images/blog/outreach_panel_6.png
 publishDate: 2025-05-01T04:00:00.000Z
 tags:
   - FONDECYT Regular 1211310
@@ -9,7 +9,7 @@ tags:
 category: Outreach
 ---
 
-As part of its commitment to knowledge transfer and societal engagement, our laboratory has actively sought to share its research in an engaging and accessible way, especially with young audiences. 
+As part of its commitment to knowledge transfer and societal engagement, our laboratory has actively sought to share its research in an engaging and accessible way, especially with young audiences.
 
 One of the specific objectives of the project Fondecyt 1211310 was to disseminate its results through publications in leading international journals, presentations at academic conferences, and outreach activities aimed at the general public. This report summarises the dissemination actions carried out for non-specialist audiences.
 
@@ -29,12 +29,16 @@ This outreach strategy successfully engaged students and stimulated their curios
 ## Outreach Activity Media
 
 ### Embedded Videos
+
 <div style="display: flex; flex-direction: column; gap: 1rem;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/iEaAP5JGgTc" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/1wIIATEaWQw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### Photo Panel
+
+![](/src/assets/images/blog/outreach_panel_1.jpg "(a)")
+
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
   <img src="~/assets/images/blog/outreach_panel_1.jpg" alt="Outreach photo 1"/>
   <img src="~/assets/images/blog/outreach_panel_2.jpg" alt="Outreach photo 2"/>
@@ -45,7 +49,3 @@ This outreach strategy successfully engaged students and stimulated their curios
 </div>
 
 *Figure 1: Photographs of the outreach activities conducted with students from Liceo Tecnico Profesional Radio 24, Colegio Padre Damian, and Colegio Bicentenario Helvecia, showing demonstrations of the Ruben's tube and the Leidenfrost effect.*
-
-
-
-
