@@ -36,7 +36,7 @@ This outreach strategy successfully engaged students and stimulated their curios
 
 ### Photo Panel
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-  <img src="~src/assets/images/blog/outreach_panel_1.png" alt="Outreach photo 1"/>
+  <img src="~src/assets/images/blog/outreach_panel_1.jpg" alt="Outreach photo 1"/>
   <img src="~src/assets/images/blog/outreach_panel_2.jpg" alt="Outreach photo 2"/>
   <img src="~src/assets/images/blog/outreach_panel_3.png" alt="Outreach photo 3"/>
   <img src="~src/assets/images/blog/outreach_panel_4.jpg" alt="Outreach photo 4"/>
@@ -45,5 +45,6 @@ This outreach strategy successfully engaged students and stimulated their curios
 </div>
 
 *Figure 1: Photographs of the outreach activities conducted with students from Liceo Tecnico Profesional Radio 24, Colegio Padre Damian, and Colegio Bicentenario Helvecia, showing demonstrations of the Ruben's tube and the Leidenfrost effect.*
+
 
 
