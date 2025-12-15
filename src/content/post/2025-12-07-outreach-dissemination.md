@@ -1,7 +1,7 @@
 ---
 title: Sharing our research beyond the lab
 image: ~/assets/images/blog/outreach_panel_6.png
-publishDate: 2025-12-07T04:00:00.000Z
+publishDate: 2025-05-01T04:00:00.000Z
 tags:
   - FONDECYT Regular 1211310
   - Outreach
@@ -14,9 +14,9 @@ As part of its commitment to knowledge transfer and societal engagement, our lab
 One of the specific objectives of the project Fondecyt 1211310 was to disseminate its results through publications in leading international journals, presentations at academic conferences, and outreach activities aimed at the general public. This report summarises the dissemination actions carried out for non-specialist audiences.
 
 Selected news related to the project were published on the social media of the Institute of Acoustics at University Austral of Chile (click, e.g., [here](https://www.instagram.com/p/DCz4N-xTDfl/) and [here](https://www.instagram.com/p/CqvOjqSrkbV/)) as well as its website
-(see also the research’s lab website [here](https://acousphem.github.io/)).
+(see also the research's lab website [here](https://acousphem.github.io/)).
 
-The project organised three outreach activities for students from the following schools: (i) Liceo Técnico Profesional Radio 24, (ii) Colegio Bicentenario Helvecia, and (iii) Colegio Padre Damian. More than 100 students participated in these sessions. Each activity began with the presentation of short videos generated using artificial intelligence, after which the team introduced the Fondecyt Regular project by connecting the video's content to the project's research themes. This was followed by live demonstrations of the phenomena shown in the videos.
+The project organised three outreach activities for students from the following schools: (i) Liceo Tecnico Profesional Radio 24, (ii) Colegio Bicentenario Helvecia, and (iii) Colegio Padre Damian. More than 100 students participated in these sessions. Each activity began with the presentation of short videos generated using artificial intelligence, after which the team introduced the Fondecyt Regular project by connecting the video's content to the project's research themes. This was followed by live demonstrations of the phenomena shown in the videos.
 
 The videos explained two classical acoustic and thermophysical phenomena: the Ruben's tube and the Leidenfrost effect.
 
@@ -36,12 +36,13 @@ This outreach strategy successfully engaged students and stimulated their curios
 
 ### Photo Panel
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-  <img src="~/assets/images/blog/outreach_panel_1.png" alt="Outreach photo 1"/>
-  <img src="~/assets/images/blog/outreach_panel_2.jpg" alt="Outreach photo 2"/>
-  <img src="~/assets/images/blog/outreach_panel_3.png" alt="Outreach photo 3"/>
-  <img src="~/assets/images/blog/outreach_panel_4.jpg" alt="Outreach photo 4"/>
-  <img src="~/assets/images/blog/outreach_panel_5.jpg" alt="Outreach photo 5"/>
-  <img src="~/assets/images/blog/outreach_panel_6.png" alt="Outreach photo 6"/>
+  <img src="src/assets/images/blog/outreach_panel_1.png" alt="Outreach photo 1"/>
+  <img src="src/assets/images/blog/outreach_panel_2.jpg" alt="Outreach photo 2"/>
+  <img src="src/assets/images/blog/outreach_panel_3.png" alt="Outreach photo 3"/>
+  <img src="src/assets/images/blog/outreach_panel_4.jpg" alt="Outreach photo 4"/>
+  <img src="src/assets/images/blog/outreach_panel_5.jpg" alt="Outreach photo 5"/>
+  <img src="src/assets/images/blog/outreach_panel_6.png" alt="Outreach photo 6"/>
 </div>
 
-*Figure 1: Photographs of the outreach activities conducted with students from Liceo Técnico Profesional Radio 24, Colegio Padre Damian, and Colegio Bicentenario Helvecia, showing demonstrations of the Ruben's tube and the Leidenfrost effect.*
+*Figure 1: Photographs of the outreach activities conducted with students from Liceo Tecnico Profesional Radio 24, Colegio Padre Damian, and Colegio Bicentenario Helvecia, showing demonstrations of the Ruben's tube and the Leidenfrost effect.*
+
