@@ -26,16 +26,16 @@ The Leidenfrost effect occurs when a liquid droplet hovers over a hot surface in
 
 This outreach strategy successfully engaged students and stimulated their curiosity, as evidenced by the photographs included below. The team considers these activities highly successful and intends to continue developing similar initiatives in future research projects.
 
-## Outreach Activity Media
+## Outreach activity media
 
-### Embedded Videos
+### Embedded videos
 
 <div style="display: flex; flex-direction: column; gap: 1rem;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/iEaAP5JGgTc" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/1wIIATEaWQw" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
 
-### Photo Panel
+### Photos
 
 ![](/~/assets/images/blog/outreach_panel_1.jpg "(a)")
 ![](/~/assets/images/blog/outreach_panel_2.jpg "(b)")
@@ -46,17 +46,18 @@ This outreach strategy successfully engaged students and stimulated their curios
 
 ![Outreach photo 1](/src/assets/images/blog/outreach_panel_1.jpg)
 
-![Outreach photo 2](assets/images/blog/outreach_panel_2.jpg)
+![Outreach photo 2](/src/assets/images/blog/outreach_panel_2.jpg)
 
-![Outreach photo 3](assets/images/blog/outreach_panel_3.png)
+![Outreach photo 3](/src/assets/images/blog/outreach_panel_3.png)
 
-![Outreach photo 4](assets/images/blog/outreach_panel_4.jpg)
+![Outreach photo 4](/src/assets/images/blog/outreach_panel_4.jpg)
 
-![Outreach photo 5](assets/images/blog/outreach_panel_5.jpg)
+![Outreach photo 5](/src/assets/images/blog/outreach_panel_5.jpg)
 
-![Outreach photo 6](~/assets/images/blog/outreach_panel_6.png)
+![Outreach photo 6](/src/assets/images/blog/outreach_panel_6.png)
 
-*Photographs of the outreach activities conducted with students from Liceo Tecnico Profesional Radio 24, Colegio Padre Damian, and Colegio Bicentenario Helvecia, showing demonstrations of the Ruben's tube and the Leidenfrost effect.*
+Photographs of the outreach activities conducted with students from Liceo Tecnico Profesional Radio 24, Colegio Padre Damian, and Colegio Bicentenario Helvecia, showing demonstrations of the Ruben's tube and the Leidenfrost effect.
+
 
 
 
