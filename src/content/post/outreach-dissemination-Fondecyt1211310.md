@@ -37,26 +37,20 @@ This outreach strategy successfully engaged students and stimulated their curios
 
 ### Photos
 
-![](~/assets/images/blog/outreach_panel_1.jpg "(a)")
-![](~/assets/images/blog/outreach_panel_2.jpg "(b)")
-![](~/assets/images/blog/outreach_panel_3.png "(c)")
-![](~/assets/images/blog/outreach_panel_4.jpg "(d)")
-![](~/assets/images/blog/outreach_panel_5.jpg "(e)")
-![](~/assets/images/blog/outreach_panel_6.png "(f)")
+![Outreach photo 1](~/assets/images/blog/outreach_panel_1.jpg "(a)")
 
-![Outreach photo 1](/src/assets/images/blog/outreach_panel_1.jpg)
+![Outreach photo 2](~/assets/images/blog/outreach_panel_2.jpg "(b)")
 
-![Outreach photo 2](/src/assets/images/blog/outreach_panel_2.jpg)
+![Outreach photo 3](~/assets/images/blog/outreach_panel_3.png "(c)")
 
-![Outreach photo 3](/src/assets/images/blog/outreach_panel_3.png)
+![Outreach photo 4](~/assets/images/blog/outreach_panel_4.jpg "(d)")
 
-![Outreach photo 4](/src/assets/images/blog/outreach_panel_4.jpg)
+![Outreach photo 5](~/assets/images/blog/outreach_panel_5.jpg "(e)")
 
-![Outreach photo 5](/src/assets/images/blog/outreach_panel_5.jpg)
-
-![Outreach photo 6](/src/assets/images/blog/outreach_panel_6.png)
+![Outreach photo 6](~/assets/images/blog/outreach_panel_6.png "(f)")
 
 Photographs of the outreach activities conducted with students from Liceo Tecnico Profesional Radio 24, Colegio Padre Damian, and Colegio Bicentenario Helvecia, showing demonstrations of the Ruben's tube and the Leidenfrost effect.
+
 
 
 
