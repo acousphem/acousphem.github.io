@@ -44,14 +44,13 @@ This outreach strategy successfully engaged students and stimulated their curios
 ![](/~/assets/images/blog/outreach_panel_5.jpg "(e)")
 ![](/~/assets/images/blog/outreach_panel_6.jpg "(f)")
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-  <img src="/src/assets/images/blog/outreach_panel_1.jpg" alt="Outreach photo 1"/>
-  <img src="/src/assets/images/blog/outreach_panel_2.jpg" alt="Outreach photo 2"/>
-  <img src="/src/assets/images/blog/outreach_panel_3.png" alt="Outreach photo 3"/>
-  <img src="/src/assets/images/blog/outreach_panel_4.jpg" alt="Outreach photo 4"/>
-  <img src="/src/assets/images/blog/outreach_panel_5.jpg" alt="Outreach photo 5"/>
-  <img src="/src/assets/images/blog/outreach_panel_6.png" alt="Outreach photo 6"/>
-
+<div>
+  <img src="assets/images/blog/outreach_panel_1.jpg" alt="Outreach photo 1" style="max-width:100%; margin-bottom:10px;">
+  <img src="assets/images/blog/outreach_panel_2.jpg" alt="Outreach photo 2" style="max-width:100%; margin-bottom:10px;">
+  <img src="assets/images/blog/outreach_panel_3.png" alt="Outreach photo 3" style="max-width:100%; margin-bottom:10px;">
+  <img src="assets/images/blog/outreach_panel_4.jpg" alt="Outreach photo 4" style="max-width:100%; margin-bottom:10px;">
+  <img src="assets/images/blog/outreach_panel_5.jpg" alt="Outreach photo 5" style="max-width:100%; margin-bottom:10px;">
+  <img src="assets/images/blog/outreach_panel_6.png" alt="Outreach photo 6" style="max-width:100%; margin-bottom:10px;">
 </div>
+*Photographs of the outreach activities conducted with students from Liceo Tecnico Profesional Radio 24, Colegio Padre Damian, and Colegio Bicentenario Helvecia, showing demonstrations of the Ruben's tube and the Leidenfrost effect.*
 
-*Figure 1: Photographs of the outreach activities conducted with students from Liceo Tecnico Profesional Radio 24, Colegio Padre Damian, and Colegio Bicentenario Helvecia, showing demonstrations of the Ruben's tube and the Leidenfrost effect.*
