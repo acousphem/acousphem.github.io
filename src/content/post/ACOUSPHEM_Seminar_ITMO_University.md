@@ -18,17 +18,16 @@ Throughout the presentation, Dr. Venegas highlighted how different physical mech
 This invitation from ITMO University underscores the growing international visibility of ACOUSPHEM and strengthens the global scientific presence of the Institute of Acoustics at the Universidad Austral de Chile. 
 
 We thank the kind invitation of Dr. Mariia Krasikova at the Laboratory of Acoustics, Faculty of physics, ITMO University. The seminar is available below.
- 
-<div style="display: flex; flex-direction: column; gap: 1rem;">
-  <div style="position: relative; padding-top: 56.25%;">
-    <iframe
-      src="https://www.youtube.com/embed/63R2Mzr5WUo"
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-  </div>
+
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/63R2Mzr5WUo"
+    style="position: absolute; inset: 0; width: 100%; height: 100%;"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
 </div>
+
 
 
