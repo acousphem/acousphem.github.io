@@ -1,7 +1,7 @@
 ---
 title: ACOUSPHEM Members Recognised as Young Professional Award Winners at INTER-NOISE 2025
 image: ~/assets/images/blog/Internoise01.png
-publishDate: 2025-05-01T04:00:00.000Z
+publishDate: 2025-08-27T04:00:00.000Z
 tags:
   - FONDECYT Regular 1250496
   - ACT240015 
@@ -10,21 +10,21 @@ tags:
 category: Outreach
 ---
 
-A group of members of our laboratory attended the Internoise 2025 conference in S„o Paulo, Brazil. Among them, three students received the I-INCE Young Professionals Award, which supported their participation. The conference brought together students, academics, and professionals from different countries to exchange ideas and experiences.
+A group of members of our laboratory attended the Internoise 2025 conference in S√£o Paulo, Brazil. Among them, three students received the I-INCE Young Professionals Award, which supported their participation. The conference brought together students, academics, and professionals from different countries to exchange ideas and experiences.
 
 During the event, the award recipients participated in discussions and networking activities, while another student from our group presented his research. In addition, the director of our laboratory contributed to the programme by delivering a talk and chairing a session.
 
-Esteban AlarcÛn presented *ìAcoustic wave control via symmetry modulation in metamaterials inspired by Tesla valves,î* showing that modifying symmetry in such metamaterials enables control of sound propagation. Through simulations and experiments, the study demonstrated that symmetry variations influence band gaps, allowing tunable acoustic filtering and wave control.
+Esteban Alarc√≥n presented *‚ÄúAcoustic wave control via symmetry modulation in metamaterials inspired by Tesla valves,‚Äù* showing that modifying symmetry in such metamaterials enables control of sound propagation. Through simulations and experiments, the study demonstrated that symmetry variations influence band gaps, allowing tunable acoustic filtering and wave control.
 
-Vicente Cuevas presented *ìVibroacoustic characterization of mass-timber using a designed and built test rig,î* which developed and validated a system to measure the vibroacoustic properties of mass timber.
+Vicente Cuevas presented *‚ÄúVibroacoustic characterization of mass-timber using a designed and built test rig,‚Äù* which developed and validated a system to measure the vibroacoustic properties of mass timber.
 
-CristÛbal G. Santos presented *ìElectroacoustic material for optimal apparent sound absorption,î* developing and validating a model for an active material capable of broadband sound absorption.
+Crist√≥bal G. Santos presented *‚ÄúElectroacoustic material for optimal apparent sound absorption,‚Äù* developing and validating a model for an active material capable of broadband sound absorption.
 
-Claudio C. Parra presented *ìWave propagation in aeroacoustic permeable materials with active momentum sources,î* analyzing how background flow affects acoustic propagation and showing that active momentum sources can modify effective properties and enable weak non-reciprocal behavior.
+Claudio C. Parra presented *‚ÄúWave propagation in aeroacoustic permeable materials with active momentum sources,‚Äù* analyzing how background flow affects acoustic propagation and showing that active momentum sources can modify effective properties and enable weak non-reciprocal behavior.
 
-Dr. Venegas presented *ìSound absorption of multiscale sorptive permeable media with a distribution of nanopores.î* This study developed a model to assess how nanopore size distribution influences acoustic performance, demonstrating that tailoring nanopore structures can optimize materials for noise control.
+Dr. Venegas presented *‚ÄúSound absorption of multiscale sorptive permeable media with a distribution of nanopores.‚Äù* This study developed a model to assess how nanopore size distribution influences acoustic performance, demonstrating that tailoring nanopore structures can optimize materials for noise control.
 
-We are proud of the groupís participation and the range of contributions made throughout the conference.
+We are proud of the group‚Äôs participation and the range of contributions made throughout the conference.
 
 ### Photos
 
