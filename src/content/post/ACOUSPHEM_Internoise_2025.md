@@ -1,5 +1,5 @@
 ---
-title: ACOUSPHEM Members Recognised as Young Professional Award Winners at INTER-NOISE 2025
+title: ACOUSPHEM members recognised as Young Professional Award winners at INTER-NOISE 2025
 image: ~/assets/images/blog/Internoise01.png
 publishDate: 2025-08-27T04:00:00.000Z
 tags:
@@ -24,7 +24,7 @@ Claudio C. Parra presented *“Wave propagation in aeroacoustic permeable materi
 
 Dr. Venegas presented *“Sound absorption of multiscale sorptive permeable media with a distribution of nanopores.”* This study developed a model to assess how nanopore size distribution influences acoustic performance, demonstrating that tailoring nanopore structures can optimize materials for noise control.
 
-We are proud of the group’s participation and the range of contributions made throughout the conference.
+We are proud of the group's participation and the range of contributions made throughout the conference.
 
 ### Photos
 
