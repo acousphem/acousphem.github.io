@@ -1,13 +1,13 @@
 ---
 title: ACOUSPHEM members recognised as Young Professional Award winners at INTER-NOISE 2025
-image: ~/assets/images/blog/Internoise01.png
+image: ~/assets/images/blog/Internoise01_final.png
 publishDate: 2025-08-27T04:00:00.000Z
 tags:
   - FONDECYT Regular 1250496
   - ACT240015 
   - Internoise
   - Dissemination
-category: Outreach
+category: Conferences
 ---
 
 A group of members of our laboratory attended the Internoise 2025 conference in São Paulo, Brazil. Among them, three students received the I-INCE Young Professionals Award, which supported their participation. The conference brought together students, academics, and professionals from different countries to exchange ideas and experiences.
