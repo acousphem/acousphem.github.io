@@ -42,7 +42,7 @@ We are proud of the group's participation and the range of contributions made th
 
 ![Outreach photo 7](~/assets/images/blog/Internoise07_final.jpeg "(g)")
 
-
+This post was generated with the assistance of AI.
 
 
 
