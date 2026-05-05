@@ -10,7 +10,7 @@ tags:
 category: Conferences
 ---
 
-A group of members of our laboratory attended the Internoise 2025 conference in São Paulo, Brazil. Among them, three students received the I-INCE Young Professionals Award, which supported their participation. The conference brought together students, academics, and professionals from different countries to exchange ideas and experiences.
+Members of our laboratory attended the Internoise 2025 conference in São Paulo, Brazil. Among them, three students received the I-INCE Young Professionals Award, which supported their participation. The conference brought together students, academics, and professionals from different countries to exchange ideas and experiences.
 
 During the event, the award recipients participated in discussions and networking activities, while another student from our group presented his research. In addition, the director of our laboratory contributed to the programme by delivering a talk and chairing a session.
 
