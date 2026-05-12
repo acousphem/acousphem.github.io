@@ -9,7 +9,7 @@ tags:
 category: Outreach
 ---
 
-ACOUSPHEM members visited the Federal University of Rio de Janeiro as part of an academic visit aimed at strengthening international collaboration in research and education. During the visit, members of our laboratory toured the Laboratório de Processamento Analógico e Digital de Sinais (PADS), Laboratório de Acústica e Vibrações (LAVI) and Laboratório de Sinais, Multimídia e Telecomunicações (SMT); interacted with local researchers and students, and presented seminars showcasing ongoing work and recent developments from our group.
+ACOUSPHEM members visited the Federal University of Rio de Janeiro as part of an academic visit aimed at strengthening international collaboration in research and education. During the visit, members of our laboratory toured the LaboratÃ³rio de Processamento AnalÃ³gico e Digital de Sinais (PADS), LaboratÃ³rio de AcÃºstica e VibraÃ§Ãµes (LAVI) and LaboratÃ³rio de Sinais, MultimÃ­dia e TelecomunicaÃ§Ãµes (SMT); interacted with local researchers and students, and presented seminars showcasing ongoing work and recent developments from our group.
 
 The visit provided a good opportunity to exchange ideas and discuss possible future collaborations. We thank our colleagues Prof. Julio Cesar Boscher Torres, Prof. Fernando Pinto, Prof. Ricardo E. Musafir and Prof. Mariane Petraglia at the Federal University of Rio de Janeiro for their welcome and discussions.
 
