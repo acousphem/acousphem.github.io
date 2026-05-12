@@ -19,15 +19,13 @@ The visit provided a good opportunity to exchange ideas and discuss possible fut
 
 ![Outreach photo 2](~/assets/images/blog/UFRJ03.jpeg "(b)")
 
-![Outreach photo 3](~/assets/images/blog/UFRJ03.jpeg "(c)")
+![Outreach photo 3](~/assets/images/blog/UFRJ04.jpeg "(c)")
 
-![Outreach photo 4](~/assets/images/blog/UFRJ04.jpeg "(d)")
+![Outreach photo 4](~/assets/images/blog/UFRJ05.jpeg "(d)")
 
-![Outreach photo 5](~/assets/images/blog/UFRJ05.jpeg "(e)")
+![Outreach photo 5](~/assets/images/blog/UFRJ06.jpeg "(e)")
 
-![Outreach photo 6](~/assets/images/blog/UFRJ06.jpeg "(f)")
-
-![Outreach photo 7](~/assets/images/blog/UFRJ07.jpeg "(g)")
+![Outreach photo 6](~/assets/images/blog/UFRJ07.jpeg "(f)")
 
 
 
