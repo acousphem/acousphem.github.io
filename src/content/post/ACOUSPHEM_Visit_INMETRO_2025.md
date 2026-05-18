@@ -1,5 +1,5 @@
 ---
-title: A Return After Two Decades: Our Lab Visits Partner Laboratory in Brazil
+title: "A Return After Two Decades: Our Lab Visits Partner Laboratory in Brazil"
 image: ~/assets/images/blog/INMETRO01.jpeg
 publishDate: 2025-09-03T04:00:00.000Z
 tags:
