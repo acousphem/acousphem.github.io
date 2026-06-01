@@ -7,7 +7,7 @@ tags:
 category: Teaching
 ---
 
-Dr. Rodolfo Venegas delivered a course on Acoustics of Materials at the Faculty of Mechanical and Electrical Engineering (FIME) of the Autonomous University of Nuevo León (UANL), Mexico. The course brought together students, researchers, and professionals interested in the characterization and modeling of acoustic materials. It provided an excellent opportunity for academic exchange and scientific discussion.
+Dr. Rodolfo Venegas delivered a course on Acoustics of Materials at the Faculty of Mechanical and Electrical Engineering (FIME) of the Autonomous University of Nuevo LeÃ³n (UANL) in Monterrey, Mexico. The course brought together students, researchers, and professionals interested in the characterization and modeling of acoustic materials. It provided an excellent opportunity for academic exchange and scientific discussion.
 
 It was a great honor for Dr. Venegas to share his expertise and research experience in the field of material acoustics. The active participation of the attendees and the high level of engagement throughout the course contributed to a stimulating and rewarding learning environment.
 
