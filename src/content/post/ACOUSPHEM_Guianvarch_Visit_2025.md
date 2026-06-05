@@ -1,5 +1,5 @@
 ---
-title: Strengthening International Collaboration: Visit of Professor from Université Le Havre Normandie
+title: Strengthening International Collaboration - Visit of Professor from Université Le Havre Normandie
 image: ~/assets/images/blog/Cecile01.jpeg
 publishDate: 2025-09-30T04:00:00.000Z
 tags:
