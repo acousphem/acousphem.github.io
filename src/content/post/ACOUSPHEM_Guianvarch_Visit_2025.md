@@ -19,7 +19,7 @@ We thank Dr. Guianvarc'h for her visit and generous engagement with our students
 
 ### Photos
 
-![Outreach photo 1](~/assets/images/blog/Cecile02.jpeg "(a)")
+![Outreach photo 1](~/assets/images/blog/Cecile02.jpeg)
 
 
 
