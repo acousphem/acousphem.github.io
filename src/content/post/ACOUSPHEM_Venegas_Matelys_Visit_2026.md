@@ -1,7 +1,7 @@
 ---
 title: Research stay of the Director of ACOUSPHEM at Matelys Research Lab
 image: ~/assets/images/blog/RV_Matelys_2026.jpg
-publishDate: 2025-09-30T04:00:00.000Z
+publishDate: 2026-02-01T04:00:00.000Z
 tags:
   - FONDECYT Regular 1250496 
 category: Exchanges
