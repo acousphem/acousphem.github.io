@@ -4,7 +4,7 @@ image: ~/assets/images/blog/RV_Matelys_2026.jpg
 publishDate: 2025-09-30T04:00:00.000Z
 tags:
   - FONDECYT Regular 1250496 
-category: Research
+category: Exchanges
 ---
 
 As part of an ongoing FONDECYT Regular project 1250496 on wave propagation in multiscale poroelastic media, the principal investigator, Dr. Venegas, completed a research stay at Matelys Research Lab, a French company internationally recognised for its expertise in acoustics of materials.
