@@ -1,5 +1,5 @@
 ---
-title: ACOUSPHEM Welcomes Prof. Camille Perrot from Université Gustave Eiffel
+title: ACOUSPHEM Welcomes Prof. Camille Perrot from Univ. Gustave Eiffel
 image: ~/assets/images/blog/Perrot_visit_2026.jpg
 publishDate: 2026-04-23T04:00:00.000Z
 tags:
