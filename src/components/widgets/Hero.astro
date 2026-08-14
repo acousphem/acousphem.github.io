@@ -1,21 +1,20 @@
 ---
-import Image from '~/components/common/Image.astro';
-import Button from '~/components/ui/Button.astro';
-import Background from '~/components/ui/Background.astro';
+import Image from "~/components/common/Image.astro";
+import Button from "~/components/ui/Button.astro";
 
-import type { Hero as Props } from '~/types';
+import type { Hero as Props } from "~/types";
 
 const {
-  title = await Astro.slots.render('title'),
-  subtitle = await Astro.slots.render('subtitle'),
+  title = await Astro.slots.render("title"),
+  subtitle = await Astro.slots.render("subtitle"),
   tagline,
 
-  content = await Astro.slots.render('content'),
-  actions = await Astro.slots.render('actions'),
-  image = await Astro.slots.render('image'),
+  content = await Astro.slots.render("content"),
+  actions = await Astro.slots.render("actions"),
+  image = await Astro.slots.render("image"),
 
   id,
-  bg = await Astro.slots.render('bg'),
+  bg = await Astro.slots.render("bg"),
 } = Astro.props;
 ---
 
@@ -27,49 +26,40 @@ const {
   </div>
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
     <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
-    <div class="py-12 md:py-20">
-      <div class="text-center pb-0 md:pb-0 max-w-5xl mx-auto">
-        {
-          tagline && (
-            <p
-              class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase"
-              set:html={tagline}
-            />
-          )
-        }
-        {
-          title && (
+
+    <!-- Logo/Text block: occupies 90svh so it fills the screen below the navbar -->
+    {
+      title && (
+        <div class="flex flex-col justify-center items-center" style="height: 90svh;">
+          <div class="text-center max-w-5xl mx-auto">
+            {
+              tagline && (
+                <p
+                  class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase"
+                  set:html={tagline}
+                />
+              )
+            }
             <h1
               class="text-5xl md:text-6xl font-bold leading-tighter tracking-widest mb-4 font-heading dark:text-gray-200"
               set:html={title}
             />
-          )
-        }
-        <div class="max-w-3xl mx-auto">
-          {subtitle && <p class="text-xl text-muted mb-6 dark:text-slate-300" set:html={subtitle} />}
-          {
-            actions && (
-              <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
-                {Array.isArray(actions) ? (
-                  actions.map((action) => (
-                    <div class="flex w-full sm:w-auto">
-                      <Button {...(action || {})} class="w-full sm:mb-0" />
-                    </div>
-                  ))
-                ) : (
-                  <Fragment set:html={actions} />
-                )}
-              </div>
-            )
-          }
+            <div class="max-w-3xl mx-auto">
+              {subtitle && <p class="text-xl text-muted mb-6 dark:text-slate-300" set:html={subtitle} />}
+            </div>
+            {content && <Fragment set:html={content} />}
+          </div>
         </div>
-        {content && <Fragment set:html={content} />}
-      </div>
+      )
+    }
+
+    <!-- Image block: visible on scroll, with actions below -->
+    <div class="py-12 md:py-20">
       <div>
         {
           image && (
             <div class="relative m-auto max-w-5xl">
-              {typeof image === 'string' ? (
+              {typeof image === "string" ? (
                 <Fragment set:html={image} />
               ) : (
                 <Image
@@ -86,6 +76,23 @@ const {
           )
         }
       </div>
+      {
+        actions && (
+          <div class="flex justify-center mt-8">
+            <div class="max-w-xs sm:max-w-md flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
+              {Array.isArray(actions) ? (
+                actions.map((action) => (
+                  <div class="flex w-full sm:w-auto">
+                    <Button {...(action || {})} class="w-full sm:mb-0" />
+                  </div>
+                ))
+              ) : (
+                <Fragment set:html={actions} />
+              )}
+            </div>
+          </div>
+        )
+      }
     </div>
   </div>
 </section>

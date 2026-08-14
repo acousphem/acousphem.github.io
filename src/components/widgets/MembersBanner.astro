@@ -1,0 +1,40 @@
+---
+export interface Props {
+  title?: string;
+  subtitle?: string;
+  buttonText?: string;
+  image?: string;
+}
+
+const {
+  title = "Meet Our Team",
+  subtitle = "Discover the researchers and collaborators behind ACOUSPHEM.",
+  buttonText = "See our members",
+  image = "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2850&q=80",
+} = Astro.props;
+---
+
+<section class="relative w-full aspect-video bg-slate-900 overflow-hidden flex items-center justify-center">
+  <img 
+    src={image}
+    alt="Team Members" 
+    class="absolute inset-0 w-full h-full object-cover opacity-50"
+  />
+  <div class="relative z-10 flex flex-col items-center justify-center text-center p-6">
+    <h2 class="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight drop-shadow-md">
+      {title}
+    </h2>
+    <p class="text-xl md:text-2xl text-gray-100 mb-10 max-w-3xl drop-shadow">
+      {subtitle}
+    </p>
+    <a 
+      href="/members" 
+      class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+    >
+      {buttonText}
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 ml-2 -mr-1" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+      </svg>
+    </a>
+  </div>
+</section>
