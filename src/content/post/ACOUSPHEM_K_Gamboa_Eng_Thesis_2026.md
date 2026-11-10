@@ -7,10 +7,8 @@ tags:
 category: Teaching
 ---
 
-ACOUSPHEM member Kamila Gamboa Andrade completed her undergraduate studies in Acoustic Engineering at the Universidad Austral de Chile, graduating with highest honours. 
+ACOUSPHEM member Kamila Gamboa Andrade completed her undergraduate studies in Acoustic Engineering at the Universidad Austral de Chile, graduating with highest honours. Her thesis, entitled ‚ÄúInfluencia de las bajas temperaturas en el comportamiento ac√∫stico del carb√≥n activado‚Äù, was supervised by Dr. Rodolfo Venegas and carried out within the framework of the project ANID Fondecyt Regular 1250496. This work introduced Kamila to the field of acoustic materials and the experimental characterisation and modelling of porous materials, representing a significant milestone in the development of her research interests.
 
-Her thesis, entitled ìInfluencia de las bajas temperaturas en el comportamiento ac˙stico del carbÛn activadoî, was supervised by Dr. Rodolfo Venegas and carried out within the framework of the project ANID Fondecyt Regular 1250496. This work introduced Kamila to the field of acoustic materials and the experimental characterisation and modelling of porous materials, representing a significant milestone in the development of her research interests.
-
-Kamila is currently undertaking the undergraduate-to-postgraduate linkage programme (vinculaciÛn) towards the MSc in Acoustics and Vibrations at Universidad Austral de Chile.
+Kamila is currently undertaking the undergraduate-to-postgraduate linkage programme (vinculaci√≥n) towards the MSc in Acoustics and Vibrations at Universidad Austral de Chile.
 
 We congratulate Kamila on this important achievement, and we wish her every success in this next stage of her academic and research journey.
